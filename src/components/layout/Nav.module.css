@@ -1,0 +1,35 @@
+.navbar {
+  background: #218737;
+  color: white;
+  height: 60px;
+  box-shadow: 0 2px 5px rgb(8 6 13 / 26%);
+}
+
+.navbar .logo a {
+  font-size: 30px;
+  margin-left: 0px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.navbar a:hover {
+  opacity: 0.8;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar .container {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
