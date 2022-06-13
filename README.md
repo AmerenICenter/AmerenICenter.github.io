@@ -10,3 +10,11 @@ This website is ...
 npm install
 npm run start
 ```
+
+### Technologies
+
+- React.js
+- HTML, CSS, JavaScript
+- Sass
+- db?
+- Font Awesome

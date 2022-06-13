@@ -5,12 +5,38 @@
   text-align: center;
 }
 
+.overlay {
+  height: calc(100vh - 60px);
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.explore {
+  color: #218737;
+  text-decoration: none;
+}
+
+.header {
+  color: white;
+}
+
+.landing {
+  height: calc(100vh - 60px);
+  background: url('https://randomwordgenerator.com/img/picture-generator/54e2d1404a50ab14f1dc8460962e33791c3ad6e04e507440762a7cd1964ec5_640.jpg')
+    no-repeat center center/cover;
+}
+
 .home {
   height: 100vh;
   background-color: #fff;
 }
 
 .about {
+  height: 100vh;
   display: flex;
   align-items: center;
   text-align: center;
