@@ -1,11 +1,12 @@
 const teamMembers = [
   {
-    name: 'John Doe',
-    major: 'Computer Science',
-    year: 'May 2025',
+    name: 'Jacob',
+    major: 'Computer',
+    grad: 'May',
     links: ['youtube.com', 'google.com', 'world.com'],
     image: 'likaksdmlaksmd',
     title: 'asdladsmlaksdml',
+    desc: "Hello, I'm.",
   },
   {},
   {},
