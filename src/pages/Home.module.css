@@ -5,6 +5,22 @@
   text-align: center;
 }
 
+.landing {
+  height: 100vh;
+  /* background-color: yellow; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://randomwordgenerator.com/img/picture-generator/54e2d1404a50ab14f1dc8460962e33791c3ad6e04e507440762a7cd1964ec5_640.jpg");
+}
+
+.about {
+  height: 100vh;
+}
+
+/* h1 {
+  color: yellow;
+} */
+
 .home {
   height: 100vh;
   background-color: #fff;
@@ -59,7 +75,7 @@ button:hover {
 
 .intro {
   top: 38%;
-  position: absolute;
+  position: relative;
   font-size: 2.2rem;
   text-align: center;
   margin: 0 auto;
