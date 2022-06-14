@@ -1,5 +1,12 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useRef } from 'react';
 import styles from './Home.module.css';
+import {
+  faDatabase,
+  faBriefcase,
+  faCode,
+  faArrowDown,
+} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Home() {
   return (
@@ -7,15 +14,15 @@ function Home() {
       {/* <div class=''> */}
 
       {/* </div> */}
-      <section className={styles.landing}>
+      <section className={`${styles.landing} landingSection`}>
         <div className={styles.overlay}>
           <div className={styles.intro}>
             <h1 className={styles.header}>
               Welcome to the Ameren Innovation Center at Research Park
             </h1>
-            <a href='#' className={styles.explore}>
-              Explore
-            </a>
+            <button href='/#' className={`${styles.explore} scrollDown`}>
+              Explore <FontAwesomeIcon icon={faArrowDown} />
+            </button>
           </div>
         </div>
       </section>
@@ -23,7 +30,7 @@ function Home() {
       <section className={styles.about}>
         {/* <div className={`${styles.about} container`}> */}
         <div className={`${styles.text} container`}>
-          <h1>About Us</h1>
+          <h1 className={styles.aboutHeader}>About Us</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -55,7 +62,7 @@ function Home() {
           <div className={styles.boxes}>
             <div className={styles.box}>
               <h2>
-                <i class='fas fa-arrows-alt-v'></i> Application Development
+                <FontAwesomeIcon icon={faCode} /> Application Development
               </h2>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
@@ -66,7 +73,7 @@ function Home() {
 
             <div className={styles.box}>
               <h2>
-                <i class='fas fa-arrows-alt'></i>Data Science
+                <FontAwesomeIcon icon={faDatabase} /> Data Science
               </h2>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
@@ -77,7 +84,7 @@ function Home() {
 
             <div className={styles.box}>
               <h2>
-                <i class='fas fa-mobile'></i>Innovations Operations
+                <FontAwesomeIcon icon={faBriefcase} /> Innovations Operations
               </h2>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever

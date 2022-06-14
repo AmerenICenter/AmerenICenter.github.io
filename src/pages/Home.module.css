@@ -16,8 +16,12 @@
 }
 
 .explore {
-  color: #218737;
-  text-decoration: none;
+  font-size: 1.2rem;
+  /* color: #218737; */
+  /* background-color: transparent; */
+  /* border: 1px solid #218737; */
+  /* padding: 0.2rem; */
+  /* text-decoration: none; */
 }
 
 .header {
@@ -43,6 +47,7 @@
   text-align: center;
   justify-content: center;
   background-color: #f7fff2;
+  /* gap: 4rem; */
 }
 
 .text {
@@ -52,7 +57,7 @@
 }
 
 .text h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 button {
@@ -128,7 +133,7 @@ button:hover {
 /* . */
 .teamTitle {
   font-size: 50px;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 .teamContainer {
@@ -139,3 +144,7 @@ button:hover {
 .teamText {
   margin: 2rem 10rem;
 }
+
+/* .aboutHeader { */
+/* font-size: 100rem; */
+/* } */
