@@ -1,0 +1,22 @@
+.outerFooter {
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  background-color: #218737;
+}
+
+.bottomFooter {
+  display: block;
+  background-color: #1c732f;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 1.3rem;
+  padding: 1rem 0rem;
+  font-size: 0.85rem;
+}

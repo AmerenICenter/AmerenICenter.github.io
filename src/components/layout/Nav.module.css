@@ -3,6 +3,10 @@
   color: white;
   height: 60px;
   box-shadow: 0 2px 5px rgb(8 6 13 / 26%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
 }
 
 .navbar .logo a {

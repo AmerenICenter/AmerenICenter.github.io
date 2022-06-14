@@ -28,6 +28,7 @@
   height: calc(100vh - 60px);
   background: url('https://randomwordgenerator.com/img/picture-generator/54e2d1404a50ab14f1dc8460962e33791c3ad6e04e507440762a7cd1964ec5_640.jpg')
     no-repeat center center/cover;
+  margin-top: 60px;
 }
 
 .home {
@@ -41,13 +42,17 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 10%;
+  background-color: #f7fff2;
 }
 
 .text {
   width: 40%;
   display: flex;
   flex-direction: column;
+}
+
+.text h1 {
+  font-size: 40px;
 }
 
 button {
@@ -92,3 +97,25 @@ button:hover {
   left: 0;
   right: 0;
 }
+
+.team {
+  /* background-color: #2bb348; */
+  height: 100vh;
+}
+
+.team .boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1;
+  /* background: #0a51cc; */
+  /* color: white; */
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+  padding: 15px 20px;
+}
+
+/* . */

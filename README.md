@@ -18,3 +18,4 @@ npm run start
 - Sass
 - db?
 - Font Awesome
+- Firebase? aws? docker/tests?

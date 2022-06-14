@@ -1,5 +1,5 @@
 function People() {
-  return <div>People</div>;
+  return <div>asdasd</div>;
 }
 
 export default People;
