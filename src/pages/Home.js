@@ -42,46 +42,61 @@ function Home() {
         {/* </div> */}
       </section>
       <section className={styles.team}>
-        <div className={`${styles.boxes} container`}>
-          <div className={styles.box}>
-            <h2>
-              <i class='fas fa-arrows-alt-v'></i> Application Development
-            </h2>
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
-            </p>
-          </div>
+        <div className={`${styles.teamContainer} container`}>
+          <h1 className={styles.teamTitle}>Meet the Team</h1>
+          <p className={styles.teamText}>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type
+            specimen book.
+          </p>
+          <div className={styles.boxes}>
+            <div className={styles.box}>
+              <h2>
+                <i class='fas fa-arrows-alt-v'></i> Application Development
+              </h2>
+              <p>
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+              </p>
+            </div>
 
-          <div className={styles.box}>
-            <h2>
-              <i class='fas fa-arrows-alt'></i>Data Science
-            </h2>
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
-            </p>
-          </div>
+            <div className={styles.box}>
+              <h2>
+                <i class='fas fa-arrows-alt'></i>Data Science
+              </h2>
+              <p>
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+              </p>
+            </div>
 
-          <div className={styles.box}>
-            <h2>
-              <i class='fas fa-mobile'></i>Innovations Operations
-            </h2>
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
-            </p>
+            <div className={styles.box}>
+              <h2>
+                <i class='fas fa-mobile'></i>Innovations Operations
+              </h2>
+              <p>
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section>
         <div className={styles.about}>
           <div className={styles.text}>
-            <h1>Who We Are</h1>
-            <p>Are you interested in joining the team?</p>
+            <h1>Interested?</h1>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </p>
             <div>
               <button>Join Us</button>
             </div>

@@ -101,9 +101,16 @@ button:hover {
 .team {
   /* background-color: #2bb348; */
   height: 100vh;
+  /* height: 100vh; */
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* background-color: #f7fff2; */
 }
 
 .team .boxes {
+  gap: 3rem;
   display: flex;
   justify-content: space-between;
 }
@@ -119,3 +126,16 @@ button:hover {
 }
 
 /* . */
+.teamTitle {
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.teamText {
+  margin: 2rem 10rem;
+}

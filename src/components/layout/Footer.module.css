@@ -5,11 +5,19 @@
   color: white;
   text-align: center;
   background-color: #218737;
+  /* box-shadow: 0 2px -5px rgb(8 6 13 / 26%); */
 }
 
 .bottomFooter {
   display: block;
   background-color: #1c732f;
+  font-size: 0.9rem;
+  padding: 0.2rem 0;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
 }
 
 .links {

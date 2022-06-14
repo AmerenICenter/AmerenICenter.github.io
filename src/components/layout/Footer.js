@@ -1,19 +1,29 @@
 import styles from './Footer.module.css';
-
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Footer() {
   return (
     <footer className={styles.outerFooter}>
       <div>
-        <div>Hello Part 1</div>
-        <div>Hello Part 2</div>
+        <ul className={styles.links}>
+          <li>{/* <FontAwesomeIcon icon={faCoffee} /> */}</li>
+          <li>
+            <a href='#'>GitHub</a>
+          </li>
+          <li>
+            <a href='#'>YouTube</a>
+          </li>
+          <li>
+            <a href='#'>Facebook</a>
+          </li>
+          <li>
+            <a href='#'>Instagram</a>
+          </li>
+        </ul>
       </div>
       <span className={styles.bottomFooter}>
-        <ul className={styles.links}>
-          <li>Copyright @ 2022 Ameren Innovation Center</li>
-          <li>Disclaimer</li>
-          <li>Moose</li>
-          <li>Goat</li>
-        </ul>
+        {/* <ul className={styles.links}> */}
+        Copyright @ 2022 Ameren Innovation Center
       </span>
     </footer>
   );

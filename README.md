@@ -19,3 +19,7 @@ npm run start
 - db?
 - Font Awesome
 - Firebase? aws? docker/tests?
+
+update year automatically in footer.
+
+events time line?
