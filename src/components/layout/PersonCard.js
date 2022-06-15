@@ -27,21 +27,33 @@ function PersonCard(props) {
             // opacity: '0.7',
           },
           content: {
-            color: 'orange',
-            width: '50%',
-            height: '50%',
+            width: '500px',
+            height: '700px',
             margin: 'auto',
-            // opacity: '1.0',
           },
         }}
       >
-        <h2>{props.name}</h2>
-        <p>Modal body</p>
-        <button onClick={() => setModalIsOpen(false)}>Close</button>
+        <div className={styles.modalBody}>
+          <img className={styles.cardImage} src={props.headshot} />
+          <h2>{props.name}</h2>
+          <p className={styles.modalTeamHeader}>{props.team}</p>
+          <p>
+            {props.major}: {props.graduationDate}
+          </p>
+          <ul className={styles.links}>
+            {props.links.map((data) => (
+              <li>
+                <a href={Object.values(data)[0]}>{Object.keys(data)[0]}</a>
+              </li>
+            ))}
+          </ul>
+          <p className={styles.modalBiography}>{props.biography}</p>
+          <button onClick={() => setModalIsOpen(false)}>Close</button>
+        </div>
       </Modal>
-      <img className={styles.cardImage} src={props.image} />
-      <h2 className={props.cardTitle}>{props.title}</h2>
-      <p className={styles.description}>{props.description}</p>
+      <img className={styles.cardImage} src={props.headshot} />
+      <h2 className={props.cardTitle}>{props.name}</h2>
+      <p className={styles.description}>{props.team}</p>
       <button
         onClick={() => setModalIsOpen(true)}
         className={styles.cardButton}

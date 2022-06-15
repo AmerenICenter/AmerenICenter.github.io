@@ -13,3 +13,26 @@
   object-fit: cover;
   margin-bottom: 0.5rem;
 }
+
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modalBiography {
+  margin-top: 2rem;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.links a {
+  color: #218737;
+  font-size: 0.9rem;
+}
