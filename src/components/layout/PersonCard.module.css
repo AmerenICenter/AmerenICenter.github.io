@@ -6,49 +6,10 @@
 }
 
 .cardImage {
-  /* height: 15rem; */
-  height: 100%;
-  /* width: 13/0px; */
-  width: 100%;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 5px solid #218737;
+  object-fit: cover;
   margin-bottom: 0.5rem;
 }
-
-/* .card {
-  box-shadow: 0 2px 10px gray;
-  border-radius: 2px;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  text-align: center;
-  padding: 1rem;
-}
-
-.cardImage {
-  height: 12rem;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.cardTitle {
-  padding: 1rem;
-}
-
-.description {
-  padding: 0 1rem;
-}
-
-.cardButton {
-  padding: 1rem;
-  font-family: inherit;
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 1rem;
-  border: 2px solid green;
-  background: transparent;
-  color: black;
-  border-radius: 2px;
-  transition: background 200ms ease-in, color 200ms ease-in;
-} */

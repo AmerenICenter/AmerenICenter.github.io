@@ -1,9 +1,31 @@
 import styles from './People.module.css';
 import PersonCard from '../components/layout/PersonCard';
+import Modal from 'react-modal';
+import { data } from '../data/team';
+// import { useState } from 'react';
+
+function createPersonCard(person) {
+  return (
+    <PersonCard
+      name={person.name}
+      major={person.major}
+      headshot={person.headshot}
+      graduationDate={person.graduationDate}
+      biography={person.biography}
+      team={person.team}
+    />
+  );
+}
 
 function People() {
+  console.log('d');
   return (
     <div className={`${styles.main} container`}>
+      {/* <button>Open the modal</button> */}
+      {/* <Modal isOpen={true}> */}
+      {/* <h2>Modal title</h2> */}
+      {/* <p>Modal body</p> */}
+      {/* </Modal> */}
       <h1 className={`${styles.header} ${styles.infoHeader}`}>Who We Are</h1>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -17,7 +39,7 @@ function People() {
       </h1>
       <div className={styles.wrapper}>
         <PersonCard
-          image={'https://picsum.photos/200'}
+          image={'../../images/headshots/app/jacobchang.jpg'}
           title={'John Doe'}
           description={'Hello i work at this company'}
         />
@@ -61,6 +83,7 @@ function People() {
           title={'John Doe'}
           description={'Hello i work at this company'}
         />
+        {data.map(createPersonCard)}
       </div>
       <h1 className={`${styles.header} ${styles.dataScienceHeader}`}>
         Data Science Interns

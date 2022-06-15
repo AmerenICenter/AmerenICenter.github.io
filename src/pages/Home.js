@@ -1,4 +1,4 @@
-import React, { Fragment, useRef } from 'react';
+import React, { Fragment } from 'react';
 import styles from './Home.module.css';
 import {
   faDatabase,
@@ -11,9 +11,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Home() {
   return (
     <Fragment>
-      {/* <div class=''> */}
-
-      {/* </div> */}
       <section className={`${styles.landing} landingSection`}>
         <div className={styles.overlay}>
           <div className={styles.intro}>

@@ -17,8 +17,14 @@ npm run start
 - HTML, CSS, JavaScript
 - Sass
 - db?
-- Font Awesome
 - Firebase? aws? docker/tests?
+- add tests..?
+- googles analytics
+
+### React Libraries
+
+- react modal
+- font awesome react
 
 update year automatically in footer.
 
