@@ -1,8 +1,45 @@
 import styles from './People.module.css';
 import PersonCard from '../components/layout/PersonCard';
-import Modal from 'react-modal';
+import { Tree, TreeNode } from 'react-organizational-chart';
 import { appTeam, dataTeam, iopsTeam } from '../data/team';
-// import { useState } from 'react';
+
+function StyledNode() {
+  return (
+    <div
+      style={{
+        padding: '5px',
+        borderRadius: '8px',
+        display: 'inline-block',
+        border: '1px solid red',
+      }}
+    ></div>
+  );
+}
+
+function createTree() {
+  return (
+    <Tree
+      lineWidth={'2px'}
+      lineColor={'green'}
+      lineBorderRadius={'10px'}
+      label={<StyledNode>Root</StyledNode>}
+    >
+      <TreeNode label={<StyledNode>Child 1</StyledNode>}>
+        <TreeNode label={<StyledNode>Grand Child</StyledNode>} />
+      </TreeNode>
+      <TreeNode label={<StyledNode>Child 2</StyledNode>}>
+        <TreeNode label={<StyledNode>Grand Child</StyledNode>}>
+          <TreeNode label={<StyledNode>Great Grand Child 1</StyledNode>} />
+          <TreeNode label={<StyledNode>Great Grand Child 2</StyledNode>} />
+        </TreeNode>
+      </TreeNode>
+      <TreeNode label={<StyledNode>Child 3</StyledNode>}>
+        <TreeNode label={<StyledNode>Grand Child 1</StyledNode>} />
+        <TreeNode label={<StyledNode>Grand Child 2</StyledNode>} />
+      </TreeNode>
+    </Tree>
+  );
+}
 
 function createPersonCard(person) {
   console.log(person.links);
@@ -43,6 +80,7 @@ function People() {
       <div className={`${styles.wrapper} ${styles.finalWrapper}`}>
         {iopsTeam.map(createPersonCard)}
       </div>
+      <div>{createTree()}</div>
     </div>
   );
 }
