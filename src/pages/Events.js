@@ -3,8 +3,8 @@ import styles from './Events.module.css';
 
 const items = [
   {
-    title: 'May 1940',
-    cardTitle: 'Dunkirk',
+    title: 'Feb 2015',
+    cardTitle: 'Ameren Innovation Center Opens',
     url: 'http://www.history.com',
     cardSubtitle: 'Men of the British Expeditionary Force (BEF) wade out to..',
     cardDetailedText:

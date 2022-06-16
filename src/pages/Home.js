@@ -17,7 +17,10 @@ function Home() {
             <h1 className={styles.header}>
               Welcome to the Ameren Innovation Center at Research Park
             </h1>
-            <button href='/#' className={`${styles.explore} scrollDown`}>
+            <button
+              href='/#'
+              className={`${styles.explore} scrollDown ${styles.btn}`}
+            >
               Explore <FontAwesomeIcon icon={faArrowDown} />
             </button>
           </div>
@@ -40,7 +43,7 @@ function Home() {
             PageMaker including versions of Lorem Ipsum.
           </p>
           <div>
-            <button>Read More</button>
+            <button className={styles.btn}>Read More</button>
           </div>
         </div>
         {/* </div> */}
@@ -102,7 +105,7 @@ function Home() {
               scrambled it to make a type specimen book.
             </p>
             <div>
-              <button>Join Us</button>
+              <button className={styles.btn}>Join Us</button>
             </div>
           </div>
         </div>

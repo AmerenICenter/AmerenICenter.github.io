@@ -23,6 +23,8 @@ localhost:3000
 - Firebase? aws? docker/tests?
 - add tests..?
 - googles analytics
+- https://www.prnewswire.com/news-releases/ameren-innovation-center-to-open-at-the-university-of-illinois-urbana-research-park-300033621.html
+- https://researchpark.illinois.edu/tenant_directory/ameren-innovation-center/
 
 ### Additional Libraries
 
@@ -30,3 +32,4 @@ localhost:3000
 - [Font Awesome](https://fontawesome.com/v5/docs/web/use-with/react).
 - [Organizational Chart](https://www.npmjs.com/package/react-organizational-chart).
 - [Chrono](https://github.com/prabhuignoto/react-chrono#scrollable).
+- [Icons](https://react-icons.github.io/react-icons).
