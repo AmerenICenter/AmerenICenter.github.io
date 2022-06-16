@@ -1,9 +1,9 @@
 import styles from './People.module.css';
 import PersonCard from '../components/layout/PersonCard';
 import { Tree, TreeNode } from 'react-organizational-chart';
-import { appTeam, dataTeam, iopsTeam } from '../data/team';
+import { appTeam, dataTeam, iopsTeam, managerTeam } from '../data/team';
 
-function StyledNode() {
+function StyledNode(props) {
   return (
     <div
       style={{
@@ -12,7 +12,9 @@ function StyledNode() {
         display: 'inline-block',
         border: '1px solid red',
       }}
-    ></div>
+    >
+      {props.text}
+    </div>
   );
 }
 
@@ -22,21 +24,17 @@ function createTree() {
       lineWidth={'2px'}
       lineColor={'green'}
       lineBorderRadius={'10px'}
-      label={<StyledNode>Root</StyledNode>}
+      label={<StyledNode text='Ameren Innovation Center'></StyledNode>}
     >
-      <TreeNode label={<StyledNode>Child 1</StyledNode>}>
-        <TreeNode label={<StyledNode>Grand Child</StyledNode>} />
-      </TreeNode>
-      <TreeNode label={<StyledNode>Child 2</StyledNode>}>
-        <TreeNode label={<StyledNode>Grand Child</StyledNode>}>
-          <TreeNode label={<StyledNode>Great Grand Child 1</StyledNode>} />
-          <TreeNode label={<StyledNode>Great Grand Child 2</StyledNode>} />
-        </TreeNode>
-      </TreeNode>
-      <TreeNode label={<StyledNode>Child 3</StyledNode>}>
-        <TreeNode label={<StyledNode>Grand Child 1</StyledNode>} />
-        <TreeNode label={<StyledNode>Grand Child 2</StyledNode>} />
-      </TreeNode>
+      <TreeNode
+        label={<StyledNode text='Application Development 🖥️'></StyledNode>}
+      ></TreeNode>
+      <TreeNode
+        label={<StyledNode text='Data Science 📈'></StyledNode>}
+      ></TreeNode>
+      <TreeNode
+        label={<StyledNode text='Innovations Operations 💼'></StyledNode>}
+      ></TreeNode>
     </Tree>
   );
 }
@@ -66,6 +64,11 @@ function People() {
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book.
       </p>
+      <div className={styles.treeContainer}>{createTree()}</div>
+      <h1 className={`${styles.header} ${styles.dataScienceHeader}`}>
+        Managers
+      </h1>
+      <div className={styles.wrapper}>{managerTeam.map(createPersonCard)}</div>
       <h1 className={`${styles.header} ${styles.appDevHeader}`}>
         Application Development Interns
       </h1>
@@ -80,7 +83,6 @@ function People() {
       <div className={`${styles.wrapper} ${styles.finalWrapper}`}>
         {iopsTeam.map(createPersonCard)}
       </div>
-      <div>{createTree()}</div>
     </div>
   );
 }

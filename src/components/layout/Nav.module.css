@@ -37,3 +37,10 @@
   align-items: center;
   height: 100%;
 }
+
+.joinUs {
+  border: 1px solid black;
+  border-radius: 15px;
+  border-color: white;
+  padding: 5px 10px;
+}
