@@ -29,3 +29,4 @@ localhost:3000
 - [Modals](https://www.npmjs.com/package/react-modal).
 - [Font Awesome](https://fontawesome.com/v5/docs/web/use-with/react).
 - [Organizational Chart](https://www.npmjs.com/package/react-organizational-chart).
+- [Chrono](https://github.com/prabhuignoto/react-chrono#scrollable).

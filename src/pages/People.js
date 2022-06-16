@@ -27,13 +27,13 @@ function createTree() {
       label={<StyledNode text='Ameren Innovation Center'></StyledNode>}
     >
       <TreeNode
-        label={<StyledNode text='Application Development 🖥️'></StyledNode>}
+        label={<StyledNode text='Application Development'></StyledNode>}
       ></TreeNode>
       <TreeNode
-        label={<StyledNode text='Data Science 📈'></StyledNode>}
+        label={<StyledNode text='Data Science'></StyledNode>}
       ></TreeNode>
       <TreeNode
-        label={<StyledNode text='Innovations Operations 💼'></StyledNode>}
+        label={<StyledNode text='Innovations Operations'></StyledNode>}
       ></TreeNode>
     </Tree>
   );
