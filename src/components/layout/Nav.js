@@ -22,7 +22,7 @@ function Nav() {
             <Link to='/events'>Events</Link>
           </li>
           <li>
-            <Link to='/events' className={styles.joinUs}>
+            <Link to='/joinus' className={styles.joinUs}>
               Join Us
             </Link>
           </li>

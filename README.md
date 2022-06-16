@@ -33,3 +33,11 @@ localhost:3000
 - [Organizational Chart](https://www.npmjs.com/package/react-organizational-chart).
 - [Chrono](https://github.com/prabhuignoto/react-chrono#scrollable).
 - [Icons](https://react-icons.github.io/react-icons).
+
+### Tasks
+
+- Media queries for responsive design.
+- Organize code.
+- Use SASS for CSS.
+- Find a logo.
+- Make a map with address: https://www.youtube.com/watch?v=9e-5QHpadi0.

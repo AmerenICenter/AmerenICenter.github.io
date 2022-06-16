@@ -1,3 +1,5 @@
+/* this file contains styles applied globally to all elements on site */
+
 /* reset default browser styles */
 * {
   box-sizing: border-box;
@@ -29,4 +31,18 @@ html {
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* used as main header on all pages */
+h1 {
+  font-size: 50px;
+  margin-top: 100px;
 }
