@@ -4,6 +4,7 @@ import Events from './pages/Events';
 import People from './pages/People';
 import Home from './pages/Home';
 import Layout from './components/layout/Layout';
+import JoinUs from './pages/JoinUs';
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='/events' element={<Events />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/people' element={<People />} />
+          <Route path='/joinus' element={<JoinUs />} />
         </Routes>
       </Layout>
     </div>

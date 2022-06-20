@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cardImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #218737;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modalBiography {
+  margin-top: 2rem;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.links a {
+  color: #218737;
+  font-size: 0.9rem;
+}

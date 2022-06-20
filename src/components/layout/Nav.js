@@ -21,6 +21,11 @@ function Nav() {
           <li>
             <Link to='/events'>Events</Link>
           </li>
+          <li>
+            <Link to='/joinus' className={styles.joinUs}>
+              Join Us
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
