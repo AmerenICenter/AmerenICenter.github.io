@@ -1,0 +1,29 @@
+.info {
+  display: flex;
+  margin-top: 50px;
+  gap: 10rem;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.contact {
+  margin: 50px 0;
+}

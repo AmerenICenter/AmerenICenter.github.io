@@ -1,0 +1,35 @@
+.main {
+  /* background-color: yellow; */
+  margin-top: 60px;
+}
+
+.wrapper {
+  margin-top: 20px;
+  display: flex;
+  gap: 4rem;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  /* margin-left: auto; # */
+}
+
+.header {
+  font-size: 50px;
+}
+
+.dataScienceHeader,
+.appDevHeader,
+.iOpsHeader {
+  margin-top: 40px;
+}
+
+.infoHeader {
+  margin-top: 100px;
+}
+
+.iOpsHeader {
+  margin-top: 100px;
+}
+
+.finalWrapper {
+  margin-bottom: 100px;
+}
