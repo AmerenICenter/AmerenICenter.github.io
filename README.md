@@ -41,3 +41,5 @@ localhost:3000
 - Use SASS for CSS.
 - Find a logo.
 - Make a map with address: https://www.youtube.com/watch?v=9e-5QHpadi0.
+- full time employee page, intern page, purpose of iCenter, past/current projects
+- Link with workday, interest form, form on the site?
