@@ -1,28 +1,14 @@
 import styles from './About.module.css';
-import React from 'react';
-import { useMemo } from 'react';
-// import { Wrapper, Status } from "@googlemaps/react-wrapper";
-import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
-import MapContainer from './map.js';
-// import axios from 'axios';
-
-function Map() {
-  const center = useMemo(() => ({ lat: 44, lng: -80 }));
-  return (
-    <GoogleMap zoom={10} center={center} mapContainerClassName={styles.map}>
-      <Marker position={center}></Marker>
-    </GoogleMap>
-  );
-}
+import { useLoadScript } from '@react-google-maps/api';
+import Map from '../components/items/Map';
 
 function About() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: '',
+    googleMapsApiKey: 'key-goes-here',
   });
+
   if (!isLoaded) return <div>Loading...</div>;
-  // return <Map />;
   return (
-    // <Map/>
     <div className='container'>
       <h1 className={styles.heading}> About the Innovation Center </h1>
       <div className={styles.line}>
@@ -63,14 +49,14 @@ function About() {
         <div className={styles.contact}>
           <h2 className={styles.contactHeader}>Contact Us</h2>
           <ul>
-            <li>Head Manager: Joe</li>
+            <li>Head Manager: Joe Rolfes</li>
             <li>Senior Software Engineer: email-goes-here</li>
             <li>Data Scientist</li>
             <li>Address: 2100 S. First St. Champaign, IL</li>
             <li>Head Manager: Joe</li>
             <li>Senior Software Engineer: email-goes-here</li>
             <li>Data Scientist</li>
-            <li>Address: 2100 S. First St. Champaign, IL</li>
+            <li>2100 South Oak St, Champaign, IL 61820</li>
           </ul>
         </div>
         <div className={styles.mapContainer}>

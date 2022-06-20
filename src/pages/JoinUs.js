@@ -72,16 +72,6 @@ function JoinUs() {
         Ipsum.'
           />
         </div>
-
-        <div className={styles.contact}>
-          <h2 className={styles.contactHeader}>Contact Us</h2>
-          <ul>
-            <li>Head Manager</li>
-            <li>Senior Software Engineer</li>
-            <li>Data Scientist</li>
-            <li>Address</li>
-          </ul>
-        </div>
       </div>
     </Fragment>
   );

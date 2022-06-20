@@ -25,6 +25,7 @@ localhost:3000
 - googles analytics
 - https://www.prnewswire.com/news-releases/ameren-innovation-center-to-open-at-the-university-of-illinois-urbana-research-park-300033621.html
 - https://researchpark.illinois.edu/tenant_directory/ameren-innovation-center/
+- responsive design.
 
 ### Additional Libraries
 
@@ -33,6 +34,7 @@ localhost:3000
 - [Organizational Chart](https://www.npmjs.com/package/react-organizational-chart).
 - [Chrono](https://github.com/prabhuignoto/react-chrono#scrollable).
 - [Icons](https://react-icons.github.io/react-icons).
+- [Google Maps](https://www.npmjs.com/package/@googlemaps/react-wrapper).
 
 ### Tasks
 
@@ -40,6 +42,7 @@ localhost:3000
 - Organize code.
 - Use SASS for CSS.
 - Find a logo.
-- Make a map with address: https://www.youtube.com/watch?v=9e-5QHpadi0.
+- Media queries.
+- Make it easier for later updates
 - full time employee page, intern page, purpose of iCenter, past/current projects
 - Link with workday, interest form, form on the site?

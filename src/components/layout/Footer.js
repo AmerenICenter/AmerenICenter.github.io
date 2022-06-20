@@ -10,10 +10,12 @@ function Footer() {
       <div>
         <ul className={styles.links}>
           <li>
-            <a href='#'>GitHub</a>
+            <a href='https://github.com/AmerenICenter'>GitHub</a>
           </li>
           <li>
-            <a href='#'>YouTube</a>
+            <a href='https://researchpark.illinois.edu/tenant_directory/ameren-innovation-center/'>
+              Website
+            </a>
           </li>
           <li>
             <a href='#'>Facebook</a>

@@ -1,15 +1,4 @@
-.heading {
-  /* text-align: center; */
-  /* margin-top: 50px; */
-  /* margin-left: 50 px; */
-  /* margin-right: 50px; */
-  /* margin-bottom: 15px; */
-}
-
 .statement {
-  /* margin-left: 50px; */
-  /* margin-right: 50px; */
-  /* text-align: center; */
   font-style: italic;
   margin: 15px 0;
 }
@@ -20,12 +9,7 @@
 }
 
 .factContainer {
-  /* margin: 50px; */
   display: flex;
-  /* margin: 15px 0; */
-  /* text-align: center; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
 }
 
 .factContainer .box {
@@ -33,33 +17,14 @@
   padding: 20px;
 }
 
+/* individual fact box */
 .box {
   flex: 1;
   text-align: center;
 }
 
-.containertwo {
-  margin: 50px;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  /* justify-content: space-between; */
-}
-
-.containertwo div {
-  border: 1px #ccc solid;
-  padding: 20px;
-}
-
 .contact {
   margin: 50px 0;
-  /* text-align: center; */
-}
-
-.map {
-  width: 100%;
-  /* height: 60px; */
-  height: 100%;
 }
 
 .mapContainer {
@@ -69,4 +34,5 @@
 .locationContainer {
   display: flex;
   margin: 100px 0;
+  gap: 5rem;
 }
