@@ -1,49 +1,49 @@
 .heading {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 50 px;
-    margin-right: 50px;
-    margin-bottom: 15px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50 px;
+  margin-right: 50px;
+  margin-bottom: 15px;
 }
 
 .statement {
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
-    font-style: italic;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  font-style: italic;
 }
 
 .container {
-    margin: 50px;
-    display: flex;
-    text-align: center;
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
+  margin: 50px;
+  display: flex;
+  text-align: center;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
 }
 
 .container div {
-    border: 1px #ccc solid;
-    padding: 20px;
+  border: 1px #ccc solid;
+  padding: 20px;
 }
 
 .box {
-    flex: 1;
+  flex: 1;
 }
 
 .containertwo {
-    margin: 50px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    /* justify-content: space-between; */
+  margin: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
 }
 
 .containertwo div {
-    border: 1px #ccc solid;
-    padding: 20px;
+  border: 1px #ccc solid;
+  padding: 20px;
 }
 
 .contact {
-    margin: 50px;
-    text-align: center;
+  margin: 50px;
+  text-align: center;
 }
