@@ -1,5 +1,4 @@
 .main {
-  /* background-color: yellow; */
   margin-top: 60px;
 }
 
@@ -7,9 +6,7 @@
   margin-top: 20px;
   display: flex;
   gap: 4rem;
-  /* justify-content: center; */
   flex-wrap: wrap;
-  /* margin-left: auto; # */
 }
 
 .header {

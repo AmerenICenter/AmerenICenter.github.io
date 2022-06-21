@@ -10,7 +10,7 @@ function About() {
   if (!isLoaded) return <div>Loading...</div>;
   return (
     <div className='container'>
-      <h1 className={styles.heading}> About the Innovation Center </h1>
+      <h1 className='header'> About the Innovation Center </h1>
       <div className={styles.line}>
         Lorem Ipsum has been the industry's standard dummy text ever since the
         1500s, when an unknown printer took a galley of type and scrambled it to

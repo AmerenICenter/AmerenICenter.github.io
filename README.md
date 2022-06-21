@@ -36,6 +36,8 @@ localhost:3000
 - [Icons](https://react-icons.github.io/react-icons).
 - [Google Maps](https://www.npmjs.com/package/@googlemaps/react-wrapper).
 
+### Design Decisions
+
 ### Tasks
 
 - Media queries for responsive design.
@@ -46,3 +48,7 @@ localhost:3000
 - Make it easier for later updates
 - full time employee page, intern page, purpose of iCenter, past/current projects
 - Link with workday, interest form, form on the site?
+- https://www.youtube.com/watch?v=B_vUR9HiV0I.
+- add backend with form submit too? let us know what you think of the site?
+- maintainable code for site - load everything from readme? or json files?
+- show selected navigation bar item?

@@ -6,7 +6,7 @@ function JoinUs() {
   return (
     <Fragment>
       <div class='container'>
-        <h1>Join Us</h1>
+        <h1 className='header'>Join Us</h1>
         <div className={styles.info}>
           <div className={styles.text}>
             <h2>Interested?</h2>

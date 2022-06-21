@@ -2,13 +2,27 @@ import styles from './PersonCard.module.css';
 import { useState } from 'react';
 import Modal from 'react-modal';
 
+function createPersonCard(person) {
+  console.log(person.links);
+  return (
+    <PersonCard
+      name={person.name}
+      major={person.major}
+      headshot={person.headshot}
+      graduationDate={person.graduationDate}
+      biography={person.biography}
+      team={person.team}
+      links={person.links}
+    />
+  );
+}
+
 Modal.setAppElement('#root');
 function PersonCard(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   return (
     <div className={styles.card}>
-      {/* prevents background scrolling when modal is opened */}
       <Modal
         onAfterOpen={() => {
           document.body.style.top = `-${window.scrollY}px`;
@@ -23,9 +37,7 @@ function PersonCard(props) {
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}
         style={{
-          overlay: {
-            // opacity: '0.7',
-          },
+          overlay: {},
           content: {
             width: '500px',
             height: '700px',
@@ -64,4 +76,5 @@ function PersonCard(props) {
   );
 }
 
+export { createPersonCard };
 export default PersonCard;

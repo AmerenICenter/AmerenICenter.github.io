@@ -1,5 +1,5 @@
 import styles from './People.module.css';
-import PersonCard from '../components/layout/PersonCard';
+import { createPersonCard } from '../components/layout/PersonCard';
 import { Tree, TreeNode } from 'react-organizational-chart';
 import { appTeam, dataTeam, iopsTeam, managerTeam } from '../data/team';
 
@@ -36,21 +36,6 @@ function createTree() {
         label={<StyledNode text='Innovations Operations'></StyledNode>}
       ></TreeNode>
     </Tree>
-  );
-}
-
-function createPersonCard(person) {
-  console.log(person.links);
-  return (
-    <PersonCard
-      name={person.name}
-      major={person.major}
-      headshot={person.headshot}
-      graduationDate={person.graduationDate}
-      biography={person.biography}
-      team={person.team}
-      links={person.links}
-    />
   );
 }
 
