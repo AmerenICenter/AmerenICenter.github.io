@@ -52,3 +52,4 @@ localhost:3000
 - add backend with form submit too? let us know what you think of the site?
 - maintainable code for site - load everything from readme? or json files?
 - show selected navigation bar item?
+- test
