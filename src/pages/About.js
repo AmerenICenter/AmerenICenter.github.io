@@ -4,7 +4,7 @@ import Map from '../components/items/Map';
 
 function About() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: 'key-goes-here',
+    googleMapsApiKey: process.env.REACT_APP_MAP_API_KEY,
   });
 
   if (!isLoaded) return <div>Loading...</div>;

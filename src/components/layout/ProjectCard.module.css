@@ -6,6 +6,12 @@
 
 .image {
   border: 5px solid #218737;
+  width: 25%;
+  object-fit: cover;
+  /* aspect-ratio: 4/3; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .technologies {
