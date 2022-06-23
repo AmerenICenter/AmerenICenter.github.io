@@ -6,7 +6,9 @@ function Nav() {
     <nav className={styles.navbar}>
       <div className={`${styles.container} container`}>
         <div className={styles.logo}>
-          <Link to='/'>Logo</Link>
+          <Link to='/'>
+            <img className={styles.logoImage} src='./logo.png' />
+          </Link>
         </div>
         <ul className={styles.nav}>
           <li>

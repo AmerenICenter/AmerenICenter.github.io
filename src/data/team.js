@@ -1,6 +1,6 @@
 export const managerTeam = [
   {
-    name: 'Jacob Chang',
+    name: 'Joe Rolfes',
     major: 'Computer Science',
     graduationDate: 'May 2025',
     links: [
@@ -23,14 +23,14 @@ export const managerTeam = [
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
     ],
-    headshot: '../../images/headshots/app/jacobchang.jpg',
+    headshot: '../../images/headshots/data/james.png',
     biography:
-      "Professional Dream - I have aspirations to become an executive. I want to lead high-functioning teams. Claim to Fame - I hold the record for most wins in University of Illinois intramural athletics.",
+      'Professional Dream - I have aspirations to become an executive. I want to lead high-functioning teams. Claim to Fame - I hold the record for most wins in University of Illinois intramural athletics.',
     skills: ['A', 'B', 'C'],
     team: 'Data Scientist',
   },
   {
-    name: 'Jacob Chang',
+    name: 'Kevin Ficek',
     major: 'Computer Science',
     graduationDate: 'May 2025',
     links: [
@@ -45,7 +45,7 @@ export const managerTeam = [
     team: 'Head Manager',
   },
 ];
- 
+
 export const appTeam = [
   {
     name: 'Jacob Chang',
@@ -58,7 +58,7 @@ export const appTeam = [
     ],
     headshot: '../../images/headshots/app/jacobchang.jpg',
     biography:
-      "",
+      "One fun fact about me is I used to speed solve Rubik's Cubes. My fastest official time as 12.47 seconds! Other hobbies I have include PC games, eating at restaurants, and listening to a variety of music.",
     skills: ['HTML', 'React', 'JavaScript'],
     team: 'Application Development',
   },
@@ -73,7 +73,7 @@ export const appTeam = [
     ],
     headshot: '../../images/headshots/app/emilyho.jpg',
     biography:
-      "What inspires me: Something that inspires me in my career is that there is always something new to learn and explore. What makes my day better: Some things that make my day better is my family, dogs, sunny days, and playing badminton!",
+      'What inspires me: Something that inspires me in my career is that there is always something new to learn and explore. What makes my day better: Some things that make my day better is my family, dogs, sunny days, and playing badminton!',
     skills: ['C++', 'Python', 'Kotlin'],
     team: 'Application Development',
   },
@@ -88,7 +88,7 @@ export const appTeam = [
     ],
     headshot: '../../images/headshots/app/williamtegge.jpg',
     biography:
-      "Who or what inspires me in my career: My friends and family inspire me to push past my limits and work harder everyday. One thing on my bucket list: go skydiving.",
+      'Who or what inspires me in my career: My friends and family inspire me to push past my limits and work harder everyday. One thing on my bucket list: go skydiving.',
     skills: ['C/C++', 'Python', 'Github'],
     team: 'Application Development',
   },
@@ -103,7 +103,7 @@ export const appTeam = [
     ],
     headshot: '../../images/headshots/app/edwardtomlins.jpg',
     biography:
-      "My professional dream is to work for a Biotech company designing products to help save lives and improve quality of life. Specifically, I would want to focus on hearts and the cardiovascular system of the body. One thing on my bucket list is to visit all of the National Parks in North America. I have been to several like Yellowstone and Grand Teton, but there are so many more that I would like to see and hike around!",
+      'My professional dream is to work for a Biotech company designing products to help save lives and improve quality of life. Specifically, I would want to focus on hearts and the cardiovascular system of the body. One thing on my bucket list is to visit all of the National Parks in North America. I have been to several like Yellowstone and Grand Teton, but there are so many more that I would like to see and hike around!',
     skills: ['C++', 'System Verilog', 'Graphic Design'],
     team: 'Application Development',
   },
@@ -118,12 +118,12 @@ export const appTeam = [
     ],
     headshot: '../../images/headshots/app/zakariaramdansadoun.png',
     biography:
-      "My one year goal: My one year goal is to work as a full time software engineer. One thing on my bucket list: Owning a horse is on my bucket list.",
+      'My one year goal: My one year goal is to work as a full time software engineer. One thing on my bucket list: Owning a horse is on my bucket list.',
     skills: ['Java', 'CSS', 'HTML'],
     team: 'Application Development',
   },
 ];
- 
+
 export const dataTeam = [
   {
     name: 'David An',
@@ -136,7 +136,7 @@ export const dataTeam = [
     ],
     headshot: '../../images/headshots/data/davidan.jpg',
     biography:
-      "What is your professional dream? My professional dream is to be able to be in a position that allows me to help others grow both professionally and personally. I also want to let the people around me smile through my actions. Hobbies: I enjoy anything nature related. In my downtime, I enjoy reading, running, programming, and riding my bike. I hopefully aim to compete in various races and tours soon! ",
+      'What is your professional dream? My professional dream is to be able to be in a position that allows me to help others grow both professionally and personally. I also want to let the people around me smile through my actions. Hobbies: I enjoy anything nature related. In my downtime, I enjoy reading, running, programming, and riding my bike. I hopefully aim to compete in various races and tours soon! ',
     skills: ['Python', 'C++', 'Java'],
     team: 'Data Science',
   },
@@ -151,7 +151,7 @@ export const dataTeam = [
     ],
     headshot: '../../images/headshots/data/mylesream.jpg',
     biography:
-      "My big hairy audacious goal is to get a black belt in Brazilian Jiu Jitsu. Hobbies I have include martial arts, working out, tennis, cooking, music and video games.",
+      'My big hairy audacious goal is to get a black belt in Brazilian Jiu Jitsu. Hobbies I have include martial arts, working out, tennis, cooking, music and video games.',
     skills: ['A', 'B', 'C'],
     team: 'Data Science',
   },
@@ -181,7 +181,7 @@ export const dataTeam = [
     ],
     headshot: '../../images/headshots/data/architmyadam.jpeg',
     biography:
-      "My biggest strength is my speed in learning things, I am able to pickup new concepts very fast. Some hobbies I have is playing basketball and soccer with my friends.",
+      'My biggest strength is my speed in learning things, I am able to pickup new concepts very fast. Some hobbies I have is playing basketball and soccer with my friends.',
     skills: ['Java', 'Python', 'SQL'],
     team: 'Data Science',
   },
@@ -213,9 +213,9 @@ export const iopsTeam = [
       { LinkedIn: 'https://www.linkedin.com' },
     ],
     headshot: '../../images/headshots/iops/katiekabbes.jpg',
-    biography:
-      "Fun Fact: My favorite intramural on campus is dodgeball.",
+    biography: 'Fun Fact: My favorite intramural on campus is dodgeball.',
     skills: ['Scrum Master', 'JIRA', 'Excel'],
+    team: 'Innovations Operations',
   },
   {
     name: 'George Atkins',
@@ -228,12 +228,12 @@ export const iopsTeam = [
     ],
     headshot: '../../images/headshots/iops/georgeatkins.jpg',
     biography:
-      "My big hairy audacious goal is to summit the two tallest mountains in the world, Mount Everest and K2. I believe that everyone should go on an extended backpacking trip to get away from technology and embrace nature.",
+      'My big hairy audacious goal is to summit the two tallest mountains in the world, Mount Everest and K2. I believe that everyone should go on an extended backpacking trip to get away from technology and embrace nature.',
     skills: ['MS Office', 'Spreadsheets', 'Writing'],
     team: 'Innovations Operations',
   },
   {
-    name: 'ritika Patel',
+    name: 'Ritika Patel',
     major: 'Information Systems and Finance',
     graduationDate: 'May 2025',
     links: [
@@ -243,7 +243,7 @@ export const iopsTeam = [
     ],
     headshot: '../../images/headshots/iops/ritikapatel.jpg',
     biography:
-      "One accomplishment I am proud of: Helping to create a website that talks about child abuse and how people can take action against it. The luckiest thing that has happened to me: Guessing the exact number of cheeseballs in a container to win a 100 dollar gift card",
+      'One accomplishment I am proud of: Helping to create a website that talks about child abuse and how people can take action against it. The luckiest thing that has happened to me: Guessing the exact number of cheeseballs in a container to win a 100 dollar gift card',
     skills: ['Java', 'C++', 'C'],
     team: 'Innovations Operations',
   },

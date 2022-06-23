@@ -44,3 +44,9 @@
   border-color: white;
   padding: 5px 10px;
 }
+
+.logoImage {
+  width: 100px;
+  height: auto;
+  padding-bottom: 12px;
+}

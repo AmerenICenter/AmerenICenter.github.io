@@ -8,7 +8,18 @@ function Events() {
   return (
     <div className={`${styles.timeline} container`}>
       <h1 className='header'>Events</h1>
-      <Chrono items={events} mode={mode} />
+      <Chrono
+        items={events}
+        mode={mode}
+        theme={{
+          primary: '#218737',
+          secondary: '#218737',
+          cardBgColor: 'white',
+          cardForeColor: 'black',
+          titleColor: 'black',
+          titleColorActive: 'white',
+        }}
+      />
     </div>
   );
 }
