@@ -216,6 +216,7 @@ export const iopsTeam = [
     biography:
       "Fun Fact: My favorite intramural on campus is dodgeball.",
     skills: ['Scrum Master', 'JIRA', 'Excel'],
+    team: "Innovations Operations"
   },
   {
     name: 'George Atkins',

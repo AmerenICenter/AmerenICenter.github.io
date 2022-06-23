@@ -58,7 +58,7 @@ function People() {
       <div className={styles.wrapper}>{appTeam.map(createPersonCard)}</div>
       <h2 className={`${styles.peopleHeader}`}>Data Science Interns</h2>
       <div className={styles.wrapper}>{dataTeam.map(createPersonCard)}</div>
-      <h2 className={`${styles.iOpsHeader}`}>Innovations Operations Interns</h2>
+      <h2 className={`${styles.peopleHeader}`}>Innovations Operations Interns</h2>
       <div className={`${styles.wrapper} ${styles.finalWrapper}`}>
         {iopsTeam.map(createPersonCard)}
       </div>
