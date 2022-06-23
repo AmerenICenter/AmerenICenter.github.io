@@ -17,7 +17,7 @@ function Map() {
 
 function About() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: '',
+    googleMapsApiKey: 'AIzaSyAj2C_WzEHZcceFS2GXebyrttXVf0iBAcI',
   });
   if (!isLoaded) return <div>Loading...</div>;
   // return <Map />;
