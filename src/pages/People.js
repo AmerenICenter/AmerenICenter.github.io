@@ -1,5 +1,5 @@
 import styles from './People.module.css';
-import PersonCard from '../components/layout/PersonCard';
+import { createPersonCard } from '../components/layout/PersonCard';
 import { Tree, TreeNode } from 'react-organizational-chart';
 import { appTeam, dataTeam, iopsTeam, managerTeam } from '../data/team';
 
@@ -39,21 +39,6 @@ function createTree() {
   );
 }
 
-function createPersonCard(person) {
-  console.log(person.links);
-  return (
-    <PersonCard
-      name={person.name}
-      major={person.major}
-      headshot={person.headshot}
-      graduationDate={person.graduationDate}
-      biography={person.biography}
-      team={person.team}
-      links={person.links}
-    />
-  );
-}
-
 function People() {
   return (
     <div className={`${styles.main} container`}>
@@ -65,21 +50,15 @@ function People() {
         scrambled it to make a type specimen book.
       </p>
       <div className={styles.treeContainer}>{createTree()}</div>
-      <h1 className={`${styles.header} ${styles.dataScienceHeader}`}>
-        Managers
-      </h1>
+      <h2 className={`${styles.peopleHeader}`}>Managers</h2>
       <div className={styles.wrapper}>{managerTeam.map(createPersonCard)}</div>
-      <h1 className={`${styles.header} ${styles.appDevHeader}`}>
+      <h2 className={`${styles.peopleHeader}`}>
         Application Development Interns
-      </h1>
+      </h2>
       <div className={styles.wrapper}>{appTeam.map(createPersonCard)}</div>
-      <h1 className={`${styles.header} ${styles.dataScienceHeader}`}>
-        Data Science Interns
-      </h1>
+      <h2 className={`${styles.peopleHeader}`}>Data Science Interns</h2>
       <div className={styles.wrapper}>{dataTeam.map(createPersonCard)}</div>
-      <h1 className={`${styles.header} ${styles.iOpsHeader}`}>
-        Innovations Operations Interns
-      </h1>
+      <h2 className={`${styles.iOpsHeader}`}>Innovations Operations Interns</h2>
       <div className={`${styles.wrapper} ${styles.finalWrapper}`}>
         {iopsTeam.map(createPersonCard)}
       </div>

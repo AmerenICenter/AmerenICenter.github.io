@@ -1,20 +1,9 @@
 .outerFooter {
-  /* bottom: 0; */
   width: 100%;
   color: white;
   text-align: center;
   background-color: #218737;
   margin-top: auto;
-  /* position: fixed;
-  bottom: 0px;
-  margin-left: 0;
-  margin-right: */
-  /* box-shadow: 0 2px -5px rgb(8 6 13 / 26%); */
-  /* bottom: 0px;
-  left: 0;
-  right: 0;
-  margin-top: auto;
-  position: absolute; */
 }
 
 .bottomFooter {
@@ -28,6 +17,7 @@
 li a {
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
 }
 
 .links {

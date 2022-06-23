@@ -1,5 +1,6 @@
-import React, { useEffect, useState, Fragment } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BsArrowBarUp } from 'react-icons/bs';
+import styles from './ScrollToTopButton.module.css';
 
 function ScrollToTopButton() {
   const [scrollToTopButton, setScrollToTopButton] = useState(false);
@@ -21,27 +22,13 @@ function ScrollToTopButton() {
     });
   };
   return (
-    // <div>
-    <Fragment>
+    <>
       {scrollToTopButton && (
-        <button
-          href='#'
-          onClick={scrollUp}
-          style={{
-            zIndex: '10',
-            position: 'fixed',
-            bottom: '20px',
-            right: '20px',
-            background: 'rgba(0, 0, 0, 0.7)',
-            width: '30px',
-            height: '30px',
-            textDecoration: 'none',
-          }}
-        >
+        <button onClick={scrollUp} className={styles.scrollToTopButton}>
           <BsArrowBarUp />
         </button>
       )}
-    </Fragment>
+    </>
   );
 }
 

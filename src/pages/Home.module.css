@@ -17,11 +17,6 @@
 
 .explore {
   font-size: 1.2rem;
-  /* color: #218737; */
-  /* background-color: transparent; */
-  /* border: 1px solid #218737; */
-  /* padding: 0.2rem; */
-  /* text-decoration: none; */
 }
 
 .header {
@@ -47,46 +42,13 @@
   text-align: center;
   justify-content: center;
   background-color: #f7fff2;
-  /* gap: 4rem; */
 }
 
 .text {
-  width: 40%;
   display: flex;
+  width: 50%;
   flex-direction: column;
-}
-
-.text h1 {
-  font-size: 50px;
-}
-
-button {
-  padding: 1.1rem 3rem;
-  font-size: 1.8rem;
-  line-height: 2.6rem;
-  border-radius: 2.5rem;
-  color: #fff;
-  background-color: #218737;
-  border-color: #1c732f;
-  display: inline-block;
-  margin-top: 0.5rem;
   text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 10px 35px;
-  font-size: 14px;
-  line-height: 1.5;
-  border-radius: 2rem;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-button:hover {
-  background-color: #29bf4a;
 }
 
 .image {
@@ -104,14 +66,10 @@ button:hover {
 }
 
 .team {
-  /* background-color: #2bb348; */
   height: 100vh;
-  /* height: 100vh; */
-  /* display: flex; */
   align-items: center;
   text-align: center;
   justify-content: center;
-  /* background-color: #f7fff2; */
 }
 
 .team .boxes {
@@ -122,15 +80,12 @@ button:hover {
 
 .box {
   flex: 1;
-  /* background: #0a51cc; */
-  /* color: white; */
   border-radius: 10px;
   margin: 20px 10px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
   padding: 15px 20px;
 }
 
-/* . */
 .teamTitle {
   font-size: 50px;
   margin-top: 15%;
@@ -145,6 +100,15 @@ button:hover {
   margin: 2rem 10rem;
 }
 
-/* .aboutHeader { */
-/* font-size: 100rem; */
-/* } */
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.boxHeader {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}

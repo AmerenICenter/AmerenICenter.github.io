@@ -1,3 +1,7 @@
+function createQuestionItem(item) {
+  return <QuestionItem question={item.question} answer={item.answer} />;
+}
+
 function QuestionItem(props) {
   return (
     <div>
@@ -6,5 +10,5 @@ function QuestionItem(props) {
     </div>
   );
 }
-
+export { createQuestionItem };
 export default QuestionItem;

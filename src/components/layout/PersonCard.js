@@ -1,6 +1,21 @@
 import styles from './PersonCard.module.css';
 import { useState } from 'react';
 import Modal from 'react-modal';
+import Button from '../items/Button';
+
+function createPersonCard(person) {
+  return (
+    <PersonCard
+      name={person.name}
+      major={person.major}
+      headshot={person.headshot}
+      graduationDate={person.graduationDate}
+      biography={person.biography}
+      team={person.team}
+      links={person.links}
+    />
+  );
+}
 
 Modal.setAppElement('#root');
 function PersonCard(props) {
@@ -8,7 +23,6 @@ function PersonCard(props) {
 
   return (
     <div className={styles.card}>
-      {/* prevents background scrolling when modal is opened */}
       <Modal
         onAfterOpen={() => {
           document.body.style.top = `-${window.scrollY}px`;
@@ -23,9 +37,7 @@ function PersonCard(props) {
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}
         style={{
-          overlay: {
-            // opacity: '0.7',
-          },
+          overlay: {},
           content: {
             width: '500px',
             height: '700px',
@@ -35,7 +47,7 @@ function PersonCard(props) {
       >
         <div className={styles.modalBody}>
           <img className={styles.cardImage} src={props.headshot} />
-          <h2>{props.name}</h2>
+          <h3>{props.name}</h3>
           <p className={styles.modalTeamHeader}>{props.team}</p>
           <p>
             {props.major}: {props.graduationDate}
@@ -48,20 +60,16 @@ function PersonCard(props) {
             ))}
           </ul>
           <p className={styles.modalBiography}>{props.biography}</p>
-          <button onClick={() => setModalIsOpen(false)}>Close</button>
+          <Button text={'Close'} action={() => setModalIsOpen(false)} />
         </div>
       </Modal>
       <img className={styles.cardImage} src={props.headshot} />
-      <h2 className={props.cardTitle}>{props.name}</h2>
+      <h3 className={props.cardTitle}>{props.name}</h3>
       <p className={styles.description}>{props.team}</p>
-      <button
-        onClick={() => setModalIsOpen(true)}
-        className={styles.cardButton}
-      >
-        About Me
-      </button>
+      <Button action={() => setModalIsOpen(true)} text={'About Me'} />
     </div>
   );
 }
 
+export { createPersonCard };
 export default PersonCard;

@@ -1,5 +1,15 @@
 import styles from './ProjectCard.module.css';
 
+function createProjectCard(project) {
+  return (
+    <ProjectCard
+      image={project.image}
+      name={project.name}
+      text={project.text}
+    />
+  );
+}
+
 function ProjectCard(props) {
   return (
     <div className={styles.card}>
@@ -18,4 +28,5 @@ function ProjectCard(props) {
   );
 }
 
+export { createProjectCard };
 export default ProjectCard;

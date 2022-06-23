@@ -16,18 +16,9 @@ body {
   width: 100%;
   flex-direction: column;
   min-height: 100%;
-  /* position: relative;
-  min-height: 100%; */
 }
-/* 
-body,
-html {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-} */
 
-/* media queries */
+/* container for all sites */
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -41,8 +32,17 @@ ul {
   list-style-type: none;
 }
 
-/* used as main header on all pages */
+/* used as main header on all pages besides home */
+/* positions with the same margin from the navbar at the top of each page */
 h1 {
   font-size: 50px;
+}
+
+.header {
   margin-top: 100px;
+}
+
+/* used as sub headers on all pages */
+h2 {
+  font-size: 30px;
 }
