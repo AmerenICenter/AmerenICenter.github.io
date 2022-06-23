@@ -1,9 +1,9 @@
 import styles from './PersonCard.module.css';
 import { useState } from 'react';
 import Modal from 'react-modal';
+import Button from '../items/Button';
 
 function createPersonCard(person) {
-  console.log(person.links);
   return (
     <PersonCard
       name={person.name}
@@ -60,7 +60,7 @@ function PersonCard(props) {
             ))}
           </ul>
           <p className={styles.modalBiography}>{props.biography}</p>
-          <button onClick={() => setModalIsOpen(false)}>Close</button>
+          <Button text={'Close'} action={() => setModalIsOpen(false)} />
         </div>
       </Modal>
       <img className={styles.cardImage} src={props.headshot} />

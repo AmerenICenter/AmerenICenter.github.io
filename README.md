@@ -18,10 +18,8 @@ localhost:3000
 
 - [React.js](https://reactjs.org/).
 - HTML, CSS, JavaScript
-- Sass
-- db?
-- Firebase? aws? docker/tests?
-- add tests..?
+- Sass, CMS, Docker
+- Firebase for website suggestions?
 - googles analytics
 - https://www.prnewswire.com/news-releases/ameren-innovation-center-to-open-at-the-university-of-illinois-urbana-research-park-300033621.html
 - https://researchpark.illinois.edu/tenant_directory/ameren-innovation-center/
@@ -52,4 +50,3 @@ localhost:3000
 - add backend with form submit too? let us know what you think of the site?
 - maintainable code for site - load everything from readme? or json files?
 - show selected navigation bar item?
-- test

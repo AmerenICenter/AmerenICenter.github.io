@@ -1,6 +1,7 @@
-import QuestionItem from '../components/items/QuestionItem';
 import styles from './JoinUs.module.css';
 import { Fragment } from 'react';
+import FAQ from '../../src/data/faq.js';
+import { createQuestionItem } from '../components/items/QuestionItem';
 
 function JoinUs() {
   return (
@@ -30,48 +31,7 @@ function JoinUs() {
           <img src='https://picsum.photos/500/300'></img>
         </div>
         <h2>Frequently Asked Questions</h2>
-        <div className={styles.questions}>
-          <QuestionItem
-            question='Why is Lorem Ipsum the simply dummy text of the printing and typesetting
-        industry?'
-            answer='It was popularised in the 1960s with the release of Letraset sheets
-        containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum.'
-          />
-          <QuestionItem
-            question='Why is Lorem Ipsum the simply dummy text of the printing and typesetting
-        industry?'
-            answer='It was popularised in the 1960s with the release of Letraset sheets
-        containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum.'
-          />
-          <QuestionItem
-            question='Why is Lorem Ipsum the simply dummy text of the printing and typesetting
-        industry?'
-            answer='It was popularised in the 1960s with the release of Letraset sheets
-        containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum.'
-          />
-          <QuestionItem
-            question='Why is Lorem Ipsum the simply dummy text of the printing and typesetting
-        industry?'
-            answer='It was popularised in the 1960s with the release of Letraset sheets
-        containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum.'
-          />
-          <QuestionItem
-            question='Why is Lorem Ipsum the simply dummy text of the printing and typesetting
-        industry?'
-            answer='It was popularised in the 1960s with the release of Letraset sheets
-        containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum.'
-          />
-        </div>
+        <div className={styles.questions}>{FAQ.map(createQuestionItem)}</div>
       </div>
     </Fragment>
   );

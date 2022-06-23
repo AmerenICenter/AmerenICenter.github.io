@@ -57,6 +57,7 @@ function Home() {
             printer took a galley of type and scrambled it to make a type
             specimen book.
           </p>
+
           <div className={styles.boxes}>
             <div className={styles.box}>
               <h2>
@@ -90,6 +91,10 @@ function Home() {
                 and scrambled it to make a type specimen book.
               </p>
             </div>
+          </div>
+          <div className={styles.buttons}>
+            <button>View Projects</button>
+            <button>Meet Us</button>
           </div>
         </div>
       </section>

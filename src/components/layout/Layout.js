@@ -11,7 +11,6 @@ function Layout(props) {
         <Nav />
         <div>{props.children}</div>
         <Footer />
-        {/* <ScrollToTopButton /> */}
       </div>
       <ScrollToTopButton />
     </Fragment>
