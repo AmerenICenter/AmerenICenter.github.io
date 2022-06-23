@@ -4,8 +4,17 @@
   margin: 30px auto;
 }
 
+.card:last-child {
+  margin-bottom: 50px;
+}
+
 .image {
   border: 5px solid #218737;
+  width: 25%;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .technologies {

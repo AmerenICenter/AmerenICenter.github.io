@@ -1,34 +1,43 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { useRef } from 'react';
 import styles from './Home.module.css';
 import {
   faDatabase,
   faBriefcase,
   faCode,
-  faArrowDown,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Button from '../components/items/Button';
 
 function Home() {
+  const aboutSection = useRef(null);
+
+  const scrollDown = () => {
+    window.scrollTo({
+      top: aboutSection.current.offsetTop,
+      behavior: 'smooth',
+    });
+  };
+
   return (
-    <Fragment>
+    <>
       <section className={`${styles.landing} landingSection`}>
         <div className={styles.overlay}>
           <div className={styles.intro}>
             <h1 className={styles.header}>
               Welcome to the Ameren Innovation Center at Research Park
             </h1>
-            <button
+            <Button
+              action={scrollDown}
+              isLanding={true}
               href='/#'
-              className={`${styles.explore} scrollDown ${styles.btn}`}
-            >
-              Explore <FontAwesomeIcon icon={faArrowDown} />
-            </button>
+              text={'Explore'}
+            />
           </div>
         </div>
       </section>
-      {/* <div class='container'> */}
-      <section className={styles.about}>
-        {/* <div className={`${styles.about} container`}> */}
+
+      <section className={styles.about} ref={aboutSection}>
         <div className={`${styles.text} container`}>
           <h1 className={styles.aboutHeader}>About Us</h1>
           <p>
@@ -43,10 +52,9 @@ function Home() {
             PageMaker including versions of Lorem Ipsum.
           </p>
           <div>
-            <button className={styles.btn}>Read More</button>
+            <Button text={'Read More'} />
           </div>
         </div>
-        {/* </div> */}
       </section>
       <section className={styles.team}>
         <div className={`${styles.teamContainer} container`}>
@@ -57,13 +65,16 @@ function Home() {
             scrambled it to make a type specimen book. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown
             printer took a galley of type and scrambled it to make a type
-            specimen book.
+            specimen book. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book.
           </p>
+
           <div className={styles.boxes}>
             <div className={styles.box}>
-              <h2>
+              <div className={styles.boxHeader}>
                 <FontAwesomeIcon icon={faCode} /> Application Development
-              </h2>
+              </div>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
@@ -72,9 +83,9 @@ function Home() {
             </div>
 
             <div className={styles.box}>
-              <h2>
+              <div className={styles.boxHeader}>
                 <FontAwesomeIcon icon={faDatabase} /> Data Science
-              </h2>
+              </div>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
@@ -83,68 +94,43 @@ function Home() {
             </div>
 
             <div className={styles.box}>
-              <h2>
+              <div className={styles.boxHeader}>
                 <FontAwesomeIcon icon={faBriefcase} /> Innovations Operations
-              </h2>
+              </div>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled it to make a type specimen book.
               </p>
             </div>
+          </div>
+          <div className={styles.buttons}>
+            <Button text={'View Projects'} />
+            <Button text={'Meet the Interns'} />
           </div>
         </div>
       </section>
       <section>
         <div className={styles.about}>
           <div className={styles.text}>
-            <h1>Interested?</h1>
+            <h1 className='header'>Interested?</h1>
             <p>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
+              scrambled it to make a type specimen book. Lorem Ipsum has been
+              the industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a
+              type specimen book. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book.
             </p>
             <div>
-              <button className={styles.btn}>Join Us</button>
+              <Button text={'Join Us'} />
             </div>
           </div>
         </div>
       </section>
-      {/* </div> */}
-    </Fragment>
-
-    // <section className={styles.home}>
-    //   <div className='container'>
-    //     <div className={styles.welcome}>
-    //       Welcome to the Ameren Innovation Center at Research Park!
-    //     </div>
-    // <div className={styles.about}>
-    //   <div className={styles.text}>
-    //     <h1>About Us</h1>
-    //     <p>
-    //       Lorem Ipsum is simply dummy text of the printing and typesetting
-    //       industry. Lorem Ipsum has been the industry's standard dummy text
-    //       ever since the 1500s, when an unknown printer took a galley of
-    //       type and scrambled it to make a type specimen book. It has
-    //       survived not only five centuries, but also the leap into
-    //       electronic typesetting, remaining essentially unchanged. It was
-    //       popularised in the 1960s with the release of Letraset sheets
-    //       containing Lorem Ipsum passages, and more recently with desktop
-    //       publishing software like Aldus PageMaker including versions of
-    //       Lorem Ipsum.
-    //     </p>
-    //     <div>
-    //       <button>Read More</button>
-    //     </div>
-    //   </div>
-    //   <img
-    //     class='image'
-    //     src='https://randomwordgenerator.com/img/picture-generator/54e2d1404a50ab14f1dc8460962e33791c3ad6e04e507440762a7cd1964ec5_640.jpg'
-    //     alt='image'
-    //   />
-    // </div>
-    //   </div>
-    // </section>
+    </>
   );
 }
 

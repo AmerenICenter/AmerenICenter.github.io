@@ -24,7 +24,10 @@
 }
 
 .contact {
-  margin: 50px 0;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .mapContainer {
@@ -35,4 +38,12 @@
   display: flex;
   margin: 100px 0;
   gap: 5rem;
+}
+
+.stat {
+  font-weight: bold;
+}
+
+li {
+  white-space: nowrap;
 }

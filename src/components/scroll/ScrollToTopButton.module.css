@@ -1,8 +1,16 @@
-/* .scrollUpButton {
-  position: 'fixed';
-  bottom: '30px';
-  right: '30px';
-  height: '30px';
-  width: '30px';
-  font-size: '50px';
-} */
+.scrollToTopButton {
+  z-index: 10;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #218737;
+  color: #fff;
+}
+
+.scrollToTopButton:hover {
+  cursor: pointer;
+}

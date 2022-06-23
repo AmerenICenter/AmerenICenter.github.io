@@ -18,10 +18,8 @@ localhost:3000
 
 - [React.js](https://reactjs.org/).
 - HTML, CSS, JavaScript
-- Sass
-- db?
-- Firebase? aws? docker/tests?
-- add tests..?
+- Sass, CMS, Docker
+- Firebase for website suggestions?
 - googles analytics
 - https://www.prnewswire.com/news-releases/ameren-innovation-center-to-open-at-the-university-of-illinois-urbana-research-park-300033621.html
 - https://researchpark.illinois.edu/tenant_directory/ameren-innovation-center/
@@ -36,13 +34,16 @@ localhost:3000
 - [Icons](https://react-icons.github.io/react-icons).
 - [Google Maps](https://www.npmjs.com/package/@googlemaps/react-wrapper).
 
+### Design Decisions
+
 ### Tasks
 
-- Media queries for responsive design.
-- Organize code.
-- Use SASS for CSS.
+- SASS replace CSS.
 - Find a logo.
-- Media queries.
-- Make it easier for later updates
-- full time employee page, intern page, purpose of iCenter, past/current projects
+- Media queries (responsive design).
+- full time employee page, intern page, purpose of iCenter
 - Link with workday, interest form, form on the site?
+- https://www.youtube.com/watch?v=B_vUR9HiV0I.
+- add backend with form submit too? let us know what you think of the site?
+- CMS.
+- show selected navigation bar item?

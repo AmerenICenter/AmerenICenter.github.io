@@ -4,13 +4,13 @@ import Map from '../components/items/Map';
 
 function About() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: 'key-goes-here',
+    googleMapsApiKey: process.env.REACT_APP_MAP_API_KEY,
   });
 
   if (!isLoaded) return <div>Loading...</div>;
   return (
     <div className='container'>
-      <h1 className={styles.heading}> About the Innovation Center </h1>
+      <h1 className='header'> About the Innovation Center </h1>
       <div className={styles.line}>
         Lorem Ipsum has been the industry's standard dummy text ever since the
         1500s, when an unknown printer took a galley of type and scrambled it to
@@ -47,16 +47,12 @@ function About() {
 
       <div className={styles.locationContainer}>
         <div className={styles.contact}>
-          <h2 className={styles.contactHeader}>Contact Us</h2>
+          <h2>Contact Us</h2>
           <ul>
             <li>Head Manager: Joe Rolfes</li>
-            <li>Senior Software Engineer: email-goes-here</li>
-            <li>Data Scientist</li>
+            <li>Software Engineer: Kevin Ficek</li>
+            <li>Data Scientist: James Kabbes</li>
             <li>Address: 2100 S. First St. Champaign, IL</li>
-            <li>Head Manager: Joe</li>
-            <li>Senior Software Engineer: email-goes-here</li>
-            <li>Data Scientist</li>
-            <li>2100 South Oak St, Champaign, IL 61820</li>
           </ul>
         </div>
         <div className={styles.mapContainer}>

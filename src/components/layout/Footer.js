@@ -1,4 +1,10 @@
 import styles from './Footer.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faGithub,
+  faFacebook,
+  faTwitterSquare,
+} from '@fortawesome/free-brands-svg-icons';
 
 function getCurrentYear() {
   return new Date().getFullYear();
@@ -10,18 +16,19 @@ function Footer() {
       <div>
         <ul className={styles.links}>
           <li>
-            <a href='https://github.com/AmerenICenter'>GitHub</a>
-          </li>
-          <li>
-            <a href='https://researchpark.illinois.edu/tenant_directory/ameren-innovation-center/'>
-              Website
+            <a href='#'>
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
           <li>
-            <a href='#'>Facebook</a>
+            <a href='#'>
+              <FontAwesomeIcon icon={faTwitterSquare} />
+            </a>
           </li>
           <li>
-            <a href='#'>Instagram</a>
+            <a href='#'>
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
           </li>
         </ul>
       </div>
