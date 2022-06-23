@@ -32,9 +32,17 @@ ul {
   list-style-type: none;
 }
 
-/* used as main header on all pages */
+/* used as main header on all pages besides home */
 /* positions with the same margin from the navbar at the top of each page */
-.header {
+h1 {
   font-size: 50px;
+}
+
+.header {
   margin-top: 100px;
+}
+
+/* used as sub headers on all pages */
+h2 {
+  font-size: 30px;
 }

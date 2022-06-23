@@ -45,13 +45,10 @@
 }
 
 .text {
-  width: 40%;
   display: flex;
+  width: 50%;
   flex-direction: column;
-}
-
-.text h1 {
-  font-size: 50px;
+  text-align: center;
 }
 
 .image {
@@ -101,4 +98,17 @@
 
 .teamText {
   margin: 2rem 10rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.boxHeader {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }

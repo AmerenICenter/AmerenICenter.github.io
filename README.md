@@ -38,15 +38,12 @@ localhost:3000
 
 ### Tasks
 
-- Media queries for responsive design.
-- Organize code.
-- Use SASS for CSS.
+- SASS replace CSS.
 - Find a logo.
-- Media queries.
-- Make it easier for later updates
-- full time employee page, intern page, purpose of iCenter, past/current projects
+- Media queries (responsive design).
+- full time employee page, intern page, purpose of iCenter
 - Link with workday, interest form, form on the site?
 - https://www.youtube.com/watch?v=B_vUR9HiV0I.
 - add backend with form submit too? let us know what you think of the site?
-- maintainable code for site - load everything from readme? or json files?
+- CMS.
 - show selected navigation bar item?

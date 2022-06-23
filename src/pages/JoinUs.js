@@ -1,11 +1,10 @@
 import styles from './JoinUs.module.css';
-import { Fragment } from 'react';
 import FAQ from '../../src/data/faq.js';
 import { createQuestionItem } from '../components/items/QuestionItem';
 
 function JoinUs() {
   return (
-    <Fragment>
+    <>
       <div class='container'>
         <h1 className='header'>Join Us</h1>
         <div className={styles.info}>
@@ -33,7 +32,7 @@ function JoinUs() {
         <h2>Frequently Asked Questions</h2>
         <div className={styles.questions}>{FAQ.map(createQuestionItem)}</div>
       </div>
-    </Fragment>
+    </>
   );
 }
 export default JoinUs;

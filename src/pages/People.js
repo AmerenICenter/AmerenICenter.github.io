@@ -50,21 +50,15 @@ function People() {
         scrambled it to make a type specimen book.
       </p>
       <div className={styles.treeContainer}>{createTree()}</div>
-      <h1 className={`${styles.header} ${styles.dataScienceHeader}`}>
-        Managers
-      </h1>
+      <h2 className={`${styles.peopleHeader}`}>Managers</h2>
       <div className={styles.wrapper}>{managerTeam.map(createPersonCard)}</div>
-      <h1 className={`${styles.header} ${styles.appDevHeader}`}>
+      <h2 className={`${styles.peopleHeader}`}>
         Application Development Interns
-      </h1>
+      </h2>
       <div className={styles.wrapper}>{appTeam.map(createPersonCard)}</div>
-      <h1 className={`${styles.header} ${styles.dataScienceHeader}`}>
-        Data Science Interns
-      </h1>
+      <h2 className={`${styles.peopleHeader}`}>Data Science Interns</h2>
       <div className={styles.wrapper}>{dataTeam.map(createPersonCard)}</div>
-      <h1 className={`${styles.header} ${styles.iOpsHeader}`}>
-        Innovations Operations Interns
-      </h1>
+      <h2 className={`${styles.iOpsHeader}`}>Innovations Operations Interns</h2>
       <div className={`${styles.wrapper} ${styles.finalWrapper}`}>
         {iopsTeam.map(createPersonCard)}
       </div>

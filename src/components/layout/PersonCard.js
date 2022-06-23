@@ -47,7 +47,7 @@ function PersonCard(props) {
       >
         <div className={styles.modalBody}>
           <img className={styles.cardImage} src={props.headshot} />
-          <h2>{props.name}</h2>
+          <h3>{props.name}</h3>
           <p className={styles.modalTeamHeader}>{props.team}</p>
           <p>
             {props.major}: {props.graduationDate}
@@ -64,14 +64,9 @@ function PersonCard(props) {
         </div>
       </Modal>
       <img className={styles.cardImage} src={props.headshot} />
-      <h2 className={props.cardTitle}>{props.name}</h2>
+      <h3 className={props.cardTitle}>{props.name}</h3>
       <p className={styles.description}>{props.team}</p>
-      <button
-        onClick={() => setModalIsOpen(true)}
-        className={styles.cardButton}
-      >
-        About Me
-      </button>
+      <Button action={() => setModalIsOpen(true)} text={'About Me'} />
     </div>
   );
 }

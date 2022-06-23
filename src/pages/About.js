@@ -47,16 +47,12 @@ function About() {
 
       <div className={styles.locationContainer}>
         <div className={styles.contact}>
-          <h2 className={styles.contactHeader}>Contact Us</h2>
+          <h2>Contact Us</h2>
           <ul>
             <li>Head Manager: Joe Rolfes</li>
-            <li>Senior Software Engineer: email-goes-here</li>
-            <li>Data Scientist</li>
+            <li>Software Engineer: Kevin Ficek</li>
+            <li>Data Scientist: James Kabbes</li>
             <li>Address: 2100 S. First St. Champaign, IL</li>
-            <li>Head Manager: Joe</li>
-            <li>Senior Software Engineer: email-goes-here</li>
-            <li>Data Scientist</li>
-            <li>2100 South Oak St, Champaign, IL 61820</li>
           </ul>
         </div>
         <div className={styles.mapContainer}>

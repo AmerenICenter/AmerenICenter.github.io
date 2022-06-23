@@ -1,5 +1,5 @@
 .main {
-  margin-top: 60px;
+  margin: 100px auto;
 }
 
 .wrapper {
@@ -9,24 +9,6 @@
   flex-wrap: wrap;
 }
 
-.header {
-  font-size: 50px;
-}
-
-.dataScienceHeader,
-.appDevHeader,
-.iOpsHeader {
-  margin-top: 40px;
-}
-
-.infoHeader {
-  margin-top: 100px;
-}
-
-.iOpsHeader {
-  margin-top: 100px;
-}
-
-.finalWrapper {
-  margin-bottom: 100px;
+.peopleHeader {
+  margin-top: 50px;
 }

@@ -1,33 +1,43 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { useRef } from 'react';
 import styles from './Home.module.css';
 import {
   faDatabase,
   faBriefcase,
   faCode,
-  faArrowDown,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Button from '../components/items/Button';
 
 function Home() {
+  const aboutSection = useRef(null);
+
+  const scrollDown = () => {
+    window.scrollTo({
+      top: aboutSection.current.offsetTop,
+      behavior: 'smooth',
+    });
+  };
+
   return (
-    <Fragment>
+    <>
       <section className={`${styles.landing} landingSection`}>
         <div className={styles.overlay}>
           <div className={styles.intro}>
             <h1 className={styles.header}>
               Welcome to the Ameren Innovation Center at Research Park
             </h1>
-            <button
+            <Button
+              action={scrollDown}
+              isLanding={true}
               href='/#'
-              className={`${styles.explore} scrollDown ${styles.btn}`}
-            >
-              Explore <FontAwesomeIcon icon={faArrowDown} />
-            </button>
+              text={'Explore'}
+            />
           </div>
         </div>
       </section>
 
-      <section className={styles.about}>
+      <section className={styles.about} ref={aboutSection}>
         <div className={`${styles.text} container`}>
           <h1 className={styles.aboutHeader}>About Us</h1>
           <p>
@@ -42,7 +52,7 @@ function Home() {
             PageMaker including versions of Lorem Ipsum.
           </p>
           <div>
-            <button className={styles.btn}>Read More</button>
+            <Button text={'Read More'} />
           </div>
         </div>
       </section>
@@ -55,14 +65,16 @@ function Home() {
             scrambled it to make a type specimen book. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown
             printer took a galley of type and scrambled it to make a type
-            specimen book.
+            specimen book. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book.
           </p>
 
           <div className={styles.boxes}>
             <div className={styles.box}>
-              <h2>
+              <div className={styles.boxHeader}>
                 <FontAwesomeIcon icon={faCode} /> Application Development
-              </h2>
+              </div>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
@@ -71,9 +83,9 @@ function Home() {
             </div>
 
             <div className={styles.box}>
-              <h2>
+              <div className={styles.boxHeader}>
                 <FontAwesomeIcon icon={faDatabase} /> Data Science
-              </h2>
+              </div>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
@@ -82,9 +94,9 @@ function Home() {
             </div>
 
             <div className={styles.box}>
-              <h2>
+              <div className={styles.boxHeader}>
                 <FontAwesomeIcon icon={faBriefcase} /> Innovations Operations
-              </h2>
+              </div>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
@@ -93,8 +105,8 @@ function Home() {
             </div>
           </div>
           <div className={styles.buttons}>
-            <button>View Projects</button>
-            <button>Meet Us</button>
+            <Button text={'View Projects'} />
+            <Button text={'Meet the Interns'} />
           </div>
         </div>
       </section>
@@ -105,15 +117,20 @@ function Home() {
             <p>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
+              scrambled it to make a type specimen book. Lorem Ipsum has been
+              the industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a
+              type specimen book. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book.
             </p>
             <div>
-              <button className={styles.btn}>Join Us</button>
+              <Button text={'Join Us'} />
             </div>
           </div>
         </div>
       </section>
-    </Fragment>
+    </>
   );
 }
 
