@@ -39,11 +39,6 @@ const projects = [
     name: 'Renewables Tracker',
     text: "The Renewables Tracker hopes to track current and potential acquisitions and development for renewable energy locations. The dashboard will be able to generate graphs, track the development of projects, import data, and search existing projects all in the form of a database ​​​​​​​",
   },
-  {
-    image: 'https://picsum.photos/536/354',
-    name: 'Gas Leak Detection Algorithm (GLeNDA)',
-    text: "The GLeNDA project involves predicting gas leaks by looking at the past few weeks of usage data. If the recent usage is unusually high relative to the previous time span, that may indicate a gas leak. The goal of this project is to enhance customer safety by detecting minor leaks before they culminate a more dangerous issue. ​​​​​​​",
-  },
 ];
 
 export default projects;

@@ -7,6 +7,7 @@ export const managerTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/app/jacobchang.jpg',
     biography:
@@ -22,6 +23,7 @@ export const managerTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/james.jfif',
     biography:
@@ -37,6 +39,7 @@ export const managerTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/kevin-ficek-babb94215/' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/app/kevin.jpg',
     biography:
@@ -55,6 +58,7 @@ export const appTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/app/jacobchang.jpg',
     biography:
@@ -70,6 +74,7 @@ export const appTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/app/emilyho.jpg',
     biography:
@@ -79,12 +84,13 @@ export const appTeam = [
   },
   {
     name: 'William Tegge',
-    major: 'Computer Science',
+    major: 'Computer Engineering',
     graduationDate: 'May 2024',
     links: [
       { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://github.com/wtegge2' },
+      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/williamtegge/' },
+      { Github: 'https://github.com/wtegge2' },
     ],
     headshot: '../../images/headshots/app/williamtegge.jpg',
     biography:
@@ -98,8 +104,9 @@ export const appTeam = [
     graduationDate: 'May 2024',
     links: [
       { YouTube: 'https://www.youtube.com/channel/UCPmK7bHWFmSEsWBwDim-2KQ' },
-      { Google: 'https://github.com/edtomlins' },
+      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/edward-tomlins-69716b153/' },
+      { Github: 'https://github.com/edtomlins' },
     ],
     headshot: '../../images/headshots/app/edwardtomlins.jpg',
     biography:
@@ -113,8 +120,9 @@ export const appTeam = [
     graduationDate: 'May 2023',
     links: [
       { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://github.com/zakosadoun' },
+      { Google: 'https://www.google.com' },
       { LinkedIn: 'linkedin.com/in/zakaria-sadoun' },
+      { Github: 'https://github.com/zakosadoun' },
     ],
     headshot: '../../images/headshots/app/zakariaramdansadoun.png',
     biography:
@@ -133,6 +141,7 @@ export const dataTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/davidan.jpg',
     biography:
@@ -148,6 +157,7 @@ export const dataTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/mylesream.jpg',
     biography:
@@ -163,6 +173,7 @@ export const dataTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/jashparekh.jpg',
     biography:
@@ -178,6 +189,7 @@ export const dataTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/architmyadam.jpeg',
     biography:
@@ -193,6 +205,7 @@ export const dataTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/xander.jfif',
     biography:
@@ -211,6 +224,7 @@ export const iopsTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/kaitlyn-kabbes-302248208/' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/katiekabbes.jpg',
     biography: 'Fun Fact: My favorite intramural on campus is dodgeball.',
@@ -225,6 +239,7 @@ export const iopsTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/george-atkins-04218621b' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/georgeatkins.jpg',
     biography:
@@ -240,6 +255,7 @@ export const iopsTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'linkedin.com/in/rdp25' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/ritikapatel.jpg',
     biography:
@@ -255,6 +271,7 @@ export const iopsTeam = [
       { YouTube: 'https://www.youtube.com' },
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/jack-aubry-237b26206' },
+      { Github: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/jackaubry.jpg',
     biography:
