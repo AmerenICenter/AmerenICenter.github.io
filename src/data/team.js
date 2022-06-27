@@ -12,7 +12,7 @@ export const managerTeam = [
     biography:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
     skills: ['A', 'B', 'C'],
-    team: 'Software Engineer',
+    team: 'Head Manager',
   },
   {
     name: 'James Kabbes',
@@ -23,7 +23,7 @@ export const managerTeam = [
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
     ],
-    headshot: '../../images/headshots/data/james.png',
+    headshot: '../../images/headshots/data/james.jfif',
     biography:
       'Professional Dream - I have aspirations to become an executive. I want to lead high-functioning teams. Claim to Fame - I hold the record for most wins in University of Illinois intramural athletics.',
     skills: ['A', 'B', 'C'],
@@ -42,7 +42,7 @@ export const managerTeam = [
     biography:
       "Favorite Star Wars Movie: Rogue One. Least Favorite Star Wars Movie: Solo",
     skills: ['A', 'B', 'C'],
-    team: 'Head Manager',
+    team: 'Software Engineer',
   },
 ];
 
