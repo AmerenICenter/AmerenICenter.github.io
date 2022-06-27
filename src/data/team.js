@@ -23,7 +23,7 @@ export const managerTeam = [
       { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
     ],
-    headshot: '../../images/headshots/app/jacobchang.jpg',
+    headshot: '../../images/headshots/data/james.jfif',
     biography:
       "Professional Dream - I have aspirations to become an executive. I want to lead high-functioning teams. Claim to Fame - I hold the record for most wins in University of Illinois intramural athletics.",
     skills: ['A', 'B', 'C'],
@@ -216,6 +216,7 @@ export const iopsTeam = [
     biography:
       "Fun Fact: My favorite intramural on campus is dodgeball.",
     skills: ['Scrum Master', 'JIRA', 'Excel'],
+    team: 'Innovations Operations',
   },
   {
     name: 'George Atkins',
