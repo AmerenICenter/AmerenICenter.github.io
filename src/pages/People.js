@@ -49,7 +49,7 @@ function People() {
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book.
       </p>
-      <div className={styles.treeContainer}>{createTree()}</div>
+      {/* <div className={styles.treeContainer}>{createTree()}</div> */}
       <h2 className={`${styles.peopleHeader}`}>Managers</h2>
       <div className={styles.wrapper}>{managerTeam.map(createPersonCard)}</div>
       <h2 className={`${styles.peopleHeader}`}>

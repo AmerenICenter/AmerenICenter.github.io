@@ -3,28 +3,41 @@ import styles from './Nav.module.css';
 
 function Nav() {
   return (
-    <nav className={styles.navbar}>
+    <nav id='navbar' className={`${styles.navbar}`}>
       <div className={`${styles.container} container`}>
         <div className={styles.logo}>
           <Link to='/'>
-            <img className={styles.logoImage} src='./logo.png' />
+            <img id='logo' className={styles.logoImage} src='./logo.png' />
           </Link>
         </div>
-        <ul className={styles.nav}>
-          <li>
-            <Link to='/about'>About</Link>
+        <ul className='rightSideContainer'>
+          <li className='secretHome'>
+            <Link className='nav-link' to='/'>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to='/projects'>Projects</Link>
+            <Link className='nav-link' to='/about'>
+              About
+            </Link>
           </li>
           <li>
-            <Link to='/people'>People</Link>
+            <Link className='nav-link' to='/projects'>
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to='/events'>Events</Link>
+            <Link className='nav-link' to='/people'>
+              People
+            </Link>
           </li>
           <li>
-            <Link to='/joinus' className={styles.joinUs}>
+            <Link className='nav-link' to='/events'>
+              Events
+            </Link>
+          </li>
+          <li>
+            <Link className='nav-link' to='/joinus'>
               Join Us
             </Link>
           </li>
