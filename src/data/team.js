@@ -4,10 +4,8 @@ export const managerTeam = [
     major: 'Computer Science',
     graduationDate: 'May 2025',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/app/jacobchang.jpg',
     biography:
@@ -20,10 +18,8 @@ export const managerTeam = [
     major: 'Mechanical Engineering',
     graduationDate: 'May 2020',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/james.png',
     biography:
@@ -36,14 +32,12 @@ export const managerTeam = [
     major: 'Mechanical Engineering',
     graduationDate: 'December 1996',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/kevin-ficek-babb94215/' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/app/kevin.jpg',
     biography:
-      "Favorite Star Wars Movie: Rogue One. Least Favorite Star Wars Movie: Solo",
+      'Favorite Star Wars Movie: Rogue One. Least Favorite Star Wars Movie: Solo',
     skills: ['A', 'B', 'C'],
     team: 'Software Engineer',
   },
@@ -55,10 +49,8 @@ export const appTeam = [
     major: 'Computer Science',
     graduationDate: 'May 2025',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/app/jacobchang.jpg',
     biography:
@@ -71,10 +63,8 @@ export const appTeam = [
     major: 'Computer Science and Geographic Information Science',
     graduationDate: 'May 2025',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/app/emilyho.jpg',
     biography:
@@ -87,10 +77,8 @@ export const appTeam = [
     major: 'Computer Engineering',
     graduationDate: 'May 2024',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/williamtegge/' },
-      { Github: 'https://github.com/wtegge2' },
+      { GitHub: 'https://github.com/wtegge2' },
     ],
     headshot: '../../images/headshots/app/williamtegge.jpg',
     biography:
@@ -104,9 +92,8 @@ export const appTeam = [
     graduationDate: 'May 2024',
     links: [
       { YouTube: 'https://www.youtube.com/channel/UCPmK7bHWFmSEsWBwDim-2KQ' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/edward-tomlins-69716b153/' },
-      { Github: 'https://github.com/edtomlins' },
+      { GitHub: 'https://github.com/edtomlins' },
     ],
     headshot: '../../images/headshots/app/edwardtomlins.jpg',
     biography:
@@ -119,10 +106,8 @@ export const appTeam = [
     major: 'Computer Science',
     graduationDate: 'May 2023',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'linkedin.com/in/zakaria-sadoun' },
-      { Github: 'https://github.com/zakosadoun' },
+      { GitHub: 'https://github.com/zakosadoun' },
     ],
     headshot: '../../images/headshots/app/zakariaramdansadoun.png',
     biography:
@@ -138,10 +123,8 @@ export const dataTeam = [
     major: 'Mathematics',
     graduationDate: 'December 2023',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/davidan.jpg',
     biography:
@@ -154,10 +137,8 @@ export const dataTeam = [
     major: 'Computer Science',
     graduationDate: 'May 2025',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/mylesream.jpg',
     biography:
@@ -170,10 +151,8 @@ export const dataTeam = [
     major: 'Computer Science',
     graduationDate: 'December 2024',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/jashparekh.jpg',
     biography:
@@ -186,10 +165,8 @@ export const dataTeam = [
     major: 'Aerospace Engineering',
     graduationDate: 'May 2024',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/architmyadam.jpeg',
     biography:
@@ -202,10 +179,8 @@ export const dataTeam = [
     major: 'Industrial Engineering',
     graduationDate: 'May 2023',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/data/xander.jfif',
     biography:
@@ -221,10 +196,8 @@ export const iopsTeam = [
     major: 'Industrial/Organizational Psychology',
     graduationDate: 'May 2023',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/kaitlyn-kabbes-302248208/' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/katiekabbes.jpg',
     biography: 'Fun Fact: My favorite intramural on campus is dodgeball.',
@@ -236,10 +209,8 @@ export const iopsTeam = [
     major: 'Marketing',
     graduationDate: 'May 2024',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/george-atkins-04218621b' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/georgeatkins.jpg',
     biography:
@@ -252,10 +223,8 @@ export const iopsTeam = [
     major: 'Information Systems and Finance',
     graduationDate: 'May 2025',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'linkedin.com/in/rdp25' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/ritikapatel.jpg',
     biography:
@@ -268,10 +237,8 @@ export const iopsTeam = [
     major: 'Accountancy',
     graduationDate: 'May 2024',
     links: [
-      { YouTube: 'https://www.youtube.com' },
-      { Google: 'https://www.google.com' },
       { LinkedIn: 'https://www.linkedin.com/in/jack-aubry-237b26206' },
-      { Github: 'https://www.github.com' },
+      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/jackaubry.jpg',
     biography:
