@@ -26,13 +26,35 @@
   margin-top: 2rem;
 }
 
-.links {
+.links,
+.skills {
   display: flex;
   list-style-type: none;
   gap: 1rem;
 }
 
-.links a {
+.skills {
+  padding: 0.5rem 0;
+}
+
+.links a,
+.skills a {
   color: #218737;
   font-size: 0.9rem;
+}
+
+.skills li {
+  background-color: #b0ffe9;
+  padding: 2px 4px;
+  font-size: 0.8rem;
+}
+
+hr {
+  border: 0;
+  /* clear: both; */
+  margin-top: 10px;
+  display: block;
+  width: 96%;
+  background-color: #ccc;
+  height: 1px;
 }

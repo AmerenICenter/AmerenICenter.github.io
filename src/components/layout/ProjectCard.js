@@ -6,6 +6,7 @@ function createProjectCard(project) {
       image={project.image}
       name={project.name}
       text={project.text}
+      technologies={project.technologies}
     />
   );
 }
@@ -17,10 +18,13 @@ function ProjectCard(props) {
       <div className={styles.info}>
         <h2>{props.name}</h2>
         <ul className={styles.technologies}>
-          <li>JAVASCRIPT</li>
-          <li>HTML</li>
-          <li>CSS</li>
+          {props.technologies.map((data) => (
+            <li>
+              <div>{data}</div>
+            </li>
+          ))}
         </ul>
+
         <p>{props.text}</p>
         <a href='#'>View Project</a>
       </div>

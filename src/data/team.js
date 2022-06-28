@@ -83,7 +83,7 @@ export const appTeam = [
     headshot: '../../images/headshots/app/williamtegge.jpg',
     biography:
       'Who or what inspires me in my career: My friends and family inspire me to push past my limits and work harder everyday. One thing on my bucket list: go skydiving.',
-    skills: ['C/C++', 'Python', 'Github'],
+    skills: ['C/C++', 'Python', 'GitHub'],
     team: 'Application Development',
   },
   {

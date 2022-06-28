@@ -13,6 +13,7 @@ function createPersonCard(person) {
       biography={person.biography}
       team={person.team}
       links={person.links}
+      skills={person.skills}
     />
   );
 }
@@ -52,6 +53,14 @@ function PersonCard(props) {
           <p>
             {props.major}: {props.graduationDate}
           </p>
+
+          <ul className={styles.skills}>
+            {props.skills.map((data) => (
+              <li>
+                <div>{data}</div>
+              </li>
+            ))}
+          </ul>
           <ul className={styles.links}>
             {props.links.map((data) => (
               <li>
@@ -59,6 +68,7 @@ function PersonCard(props) {
               </li>
             ))}
           </ul>
+          <hr className={styles.line} />
           <p className={styles.modalBiography}>{props.biography}</p>
           <Button text={'Close'} action={() => setModalIsOpen(false)} />
         </div>
