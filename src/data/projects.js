@@ -47,6 +47,24 @@ const projects = [
     text: 'The Renewables Tracker hopes to track current and potential acquisitions and development for renewable energy locations. The dashboard will be able to generate graphs, track the development of projects, import data, and search existing projects all in the form of a database.​​​​​​​',
     technologies: ['JAVASCRIPT', 'HTML', 'CSS'],
   },
+  {
+    image: 'https://picsum.photos/536/354',
+    name: 'Smart Documentation',
+    text: 'Smart Documentation hopes to develop a pipeline to automatically generate documentation for Python libraries. ​​​​​​​',
+    technologies: ['JAVASCRIPT', 'HTML', 'CSS'],
+  },
+  {
+    image: 'https://picsum.photos/536/354',
+    name: 'Ansible API',
+    text: 'The Ansible API is an API that helps run Ansible playbooks remotely through a web browser. The API is built in Flask and lets users input their desired playbook to run along with parameters. It also encrypts users credentials and allows for multiple playbooks to be run and monitored simultaneously.',
+    technologies: ['JAVASCRIPT', 'HTML', 'CSS'],
+  },
+  {
+    image: 'https://picsum.photos/536/354',
+    name: 'SharePoint File',
+    text: 'The goal of the file rotate was to rotate files so SharePoint users do not overwrite the same file. The file rotate script needed to be configurable and take in a time interval which the user wants to rotate and also a SharePoint site folder in which they would want files to be rotated. The script checks age of file in folder and if the age is greater than the interval then it will move it to the archive subfolder. If an archive subfolder is not already created, the script will automatically create one. Archive folder are created by year.​​​​​​​',
+    technologies: ['JAVASCRIPT', 'HTML', 'CSS'],
+  },
 ];
 
 export default projects;
