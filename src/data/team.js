@@ -25,7 +25,7 @@ export const managerTeam = [
       { LinkedIn: 'https://www.linkedin.com' },
       { Github: 'https://www.github.com' },
     ],
-    headshot: '../../images/headshots/data/james.jfif',
+    headshot: '../../images/headshots/data/james.png',
     biography:
       'Professional Dream - I have aspirations to become an executive. I want to lead high-functioning teams. Claim to Fame - I hold the record for most wins in University of Illinois intramural athletics.',
     skills: ['A', 'B', 'C'],

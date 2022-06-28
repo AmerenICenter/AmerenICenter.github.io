@@ -1,5 +1,4 @@
-import React from 'react';
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import styles from './Home.module.css';
 import {
   faDatabase,
@@ -24,7 +23,7 @@ function Home() {
       <section className={`${styles.landing} landingSection`}>
         <div className={styles.overlay}>
           <div className={styles.intro}>
-            <h1 className={styles.header}>
+            <h1 className={`${styles.header} container`}>
               Welcome to the Ameren Innovation Center at Research Park
             </h1>
             <Button
@@ -51,7 +50,7 @@ function Home() {
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-          <div>
+          <div className={styles.buttonContainer}>
             <Button text={'Read More'} />
           </div>
         </div>
@@ -104,7 +103,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className={styles.buttons}>
+          <div className={`${styles.buttons} ${styles.buttonContainer}`}>
             <Button text={'View Projects'} />
             <Button text={'Meet the Interns'} />
           </div>
@@ -113,7 +112,7 @@ function Home() {
       <section>
         <div className={styles.about}>
           <div className={styles.text}>
-            <h1 className='header'>Interested?</h1>
+            <h1 className={`${styles.interestedHeader} header`}>Interested?</h1>
             <p>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
@@ -124,7 +123,7 @@ function Home() {
               dummy text ever since the 1500s, when an unknown printer took a
               galley of type and scrambled it to make a type specimen book.
             </p>
-            <div>
+            <div className={styles.buttonContainer}>
               <Button text={'Join Us'} />
             </div>
           </div>
