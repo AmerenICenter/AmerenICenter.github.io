@@ -3,14 +3,14 @@ import styles from './Nav.module.css';
 
 function Nav() {
   return (
-    <nav className={styles.navbar}>
+    <nav id='navbar' className={`${styles.navbar}`}>
       <div className={`${styles.container} container`}>
         <div className={styles.logo}>
           <Link to='/'>
-            <img className={styles.logoImage} src='./logo.png' />
+            <img id='logo' className={styles.logoImage} src='./logo.png' />
           </Link>
         </div>
-        <ul className={styles.nav}>
+        <ul className='rightSideContainer'>
           <li>
             <Link to='/about'>About</Link>
           </li>
