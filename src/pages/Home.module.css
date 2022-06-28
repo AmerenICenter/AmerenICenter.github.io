@@ -104,7 +104,6 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
-  /* margin-top: 3rem; */
 }
 
 .boxHeader {
@@ -115,4 +114,9 @@
 
 .buttonContainer {
   margin-top: 20px;
+}
+
+.aboutHeader,
+.interestedHeader {
+  margin-bottom: 20px;
 }

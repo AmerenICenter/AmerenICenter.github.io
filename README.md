@@ -18,12 +18,8 @@ localhost:3000
 
 - [React.js](https://reactjs.org/).
 - HTML, CSS, JavaScript
-- Sass, CMS, Docker
 - Firebase for website suggestions?
 - googles analytics
-- https://www.prnewswire.com/news-releases/ameren-innovation-center-to-open-at-the-university-of-illinois-urbana-research-park-300033621.html
-- https://researchpark.illinois.edu/tenant_directory/ameren-innovation-center/
-- responsive design.
 
 ### Additional Libraries
 
@@ -38,12 +34,9 @@ localhost:3000
 
 ### Tasks
 
-- SASS replace CSS.
-- Find a logo.
 - Media queries (responsive design).
 - full time employee page, intern page, purpose of iCenter
 - Link with workday, interest form, form on the site?
-- https://www.youtube.com/watch?v=B_vUR9HiV0I.
 - add backend with form submit too? let us know what you think of the site?
 - CMS.
 - show selected navigation bar item?

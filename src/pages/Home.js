@@ -1,5 +1,4 @@
-import React from 'react';
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import styles from './Home.module.css';
 import {
   faDatabase,
@@ -113,7 +112,7 @@ function Home() {
       <section>
         <div className={styles.about}>
           <div className={styles.text}>
-            <h1 className='header'>Interested?</h1>
+            <h1 className={`${styles.interestedHeader} header`}>Interested?</h1>
             <p>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and

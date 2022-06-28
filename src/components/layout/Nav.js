@@ -11,20 +11,33 @@ function Nav() {
           </Link>
         </div>
         <ul className='rightSideContainer'>
-          <li>
-            <Link to='/about'>About</Link>
+          <li className='secretHome'>
+            <Link className='nav-link' to='/'>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to='/projects'>Projects</Link>
+            <Link className='nav-link' to='/about'>
+              About
+            </Link>
           </li>
           <li>
-            <Link to='/people'>People</Link>
+            <Link className='nav-link' to='/projects'>
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to='/events'>Events</Link>
+            <Link className='nav-link' to='/people'>
+              People
+            </Link>
           </li>
           <li>
-            <Link to='/joinus' className={styles.joinUs}>
+            <Link className='nav-link' to='/events'>
+              Events
+            </Link>
+          </li>
+          <li>
+            <Link className='nav-link' to='/joinus'>
               Join Us
             </Link>
           </li>
