@@ -16,17 +16,17 @@ function Footer() {
       <div>
         <ul className={styles.links}>
           <li>
-            <a href='#'>
+            <a target='_blank' href='https://github.com/'>
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a target='_blank' href='https://twitter.com/'>
               <FontAwesomeIcon icon={faTwitterSquare} />
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a target='_blank' href='https://www.facebook.com/'>
               <FontAwesomeIcon icon={faFacebook} />
             </a>
           </li>

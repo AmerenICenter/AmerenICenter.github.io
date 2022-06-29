@@ -1,43 +1,6 @@
 import styles from './People.module.css';
 import { createPersonCard } from '../components/layout/PersonCard';
-import { Tree, TreeNode } from 'react-organizational-chart';
 import { appTeam, dataTeam, iopsTeam, managerTeam } from '../data/team';
-
-function StyledNode(props) {
-  return (
-    <div
-      style={{
-        padding: '5px',
-        borderRadius: '8px',
-        display: 'inline-block',
-        border: '1px solid red',
-      }}
-    >
-      {props.text}
-    </div>
-  );
-}
-
-function createTree() {
-  return (
-    <Tree
-      lineWidth={'2px'}
-      lineColor={'green'}
-      lineBorderRadius={'10px'}
-      label={<StyledNode text='Ameren Innovation Center'></StyledNode>}
-    >
-      <TreeNode
-        label={<StyledNode text='Application Development'></StyledNode>}
-      ></TreeNode>
-      <TreeNode
-        label={<StyledNode text='Data Science'></StyledNode>}
-      ></TreeNode>
-      <TreeNode
-        label={<StyledNode text='Innovations Operations'></StyledNode>}
-      ></TreeNode>
-    </Tree>
-  );
-}
 
 function People() {
   return (
@@ -49,7 +12,7 @@ function People() {
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book.
       </p>
-      {/* <div className={styles.treeContainer}>{createTree()}</div> */}
+
       <h2 className={`${styles.peopleHeader}`}>Managers</h2>
       <div className={styles.wrapper}>{managerTeam.map(createPersonCard)}</div>
       <h2 className={`${styles.peopleHeader}`}>

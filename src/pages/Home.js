@@ -26,12 +26,7 @@ function Home() {
             <h1 className={`${styles.header} container`}>
               Welcome to the Ameren Innovation Center at Research Park
             </h1>
-            <Button
-              action={scrollDown}
-              isLanding={true}
-              href='/#'
-              text={'Explore'}
-            />
+            <Button action={scrollDown} isLanding={true} text={'Explore'} />
           </div>
         </div>
       </section>
