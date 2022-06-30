@@ -31,9 +31,7 @@ export const managerTeam = [
     name: 'Kevin Ficek',
     major: 'Mechanical Engineering',
     graduationDate: 'December 1996',
-    links: [
-      { LinkedIn: 'https://www.linkedin.com/in/kevin-ficek-babb94215/' },
-    ],
+    links: [{ LinkedIn: 'https://www.linkedin.com/in/kevin-ficek-babb94215/' }],
     headshot: '../../images/headshots/app/kevin.jpg',
     biography:
       'Favorite Star Wars Movie: Rogue One. Least Favorite Star Wars Movie: Solo',
@@ -67,7 +65,7 @@ export const appTeam = [
     ],
     headshot: '../../images/headshots/app/emilyho.jpg',
     biography:
-      'What inspires me: Something that inspires me in my career is that there is always something new to learn and explore. What makes my day better: Some things that make my day better is my family, dogs, sunny days, and playing badminton!',
+      'Something that inspires me in my career is that there is always something new to learn and explore. Some things that make my day better are my family, dogs, sunny days, and playing badminton.',
     skills: ['C++', 'Python', 'Kotlin'],
     team: 'Application Development',
   },
@@ -136,9 +134,7 @@ export const dataTeam = [
     name: 'Myles Ream',
     major: 'Computer Science',
     graduationDate: 'May 2025',
-    links: [
-      { LinkedIn: 'https://www.linkedin.com/in/myles-ream-a165601b5/' },
-    ],
+    links: [{ LinkedIn: 'https://www.linkedin.com/in/myles-ream-a165601b5/' }],
     headshot: '../../images/headshots/data/mylesream.jpg',
     biography:
       'My big hairy audacious goal is to get a black belt in Brazilian Jiu Jitsu. Hobbies I have include martial arts, working out, tennis, cooking, music and video games.',
@@ -149,9 +145,7 @@ export const dataTeam = [
     name: 'Jash Parekh',
     major: 'Computer Science',
     graduationDate: 'December 2024',
-    links: [
-      { LinkedIn: 'https://www.linkedin.com/in/jash-parekh-064181188/' },
-    ],
+    links: [{ LinkedIn: 'https://www.linkedin.com/in/jash-parekh-064181188/' }],
     headshot: '../../images/headshots/data/jashparekh.jpg',
     biography:
       "One accomplishment you are proud of: I am a big proponent of environmental research and believe that the platform that I am building in computer science can be used to make a big difference for our environment using tools like machine learning and computer vision. I was fortunate to land a position with a company that specializes in environmental modeling and used my computer science knowledge to help publish a paper in an issue of the MDPI's Remote Sensing academic journal. What is one thing on your bucket list: I want to travel the world, and so many of my aspirations line up with this overall theme on my bucket list. More specifically, I would love to spend a few weeks in Antarctica soaking up the beautiful views and pristine wildlife.",
@@ -218,9 +212,7 @@ export const iopsTeam = [
     name: 'Ritika Patel',
     major: 'Information Systems and Finance',
     graduationDate: 'May 2025',
-    links: [
-      { LinkedIn: 'linkedin.com/in/rdp25' },
-    ],
+    links: [{ LinkedIn: 'linkedin.com/in/rdp25' }],
     headshot: '../../images/headshots/iops/ritikapatel.jpg',
     biography:
       'One accomplishment I am proud of: Helping to create a website that talks about child abuse and how people can take action against it. The luckiest thing that has happened to me: Guessing the exact number of cheeseballs in a container to win a 100 dollar gift card',
@@ -231,9 +223,7 @@ export const iopsTeam = [
     name: 'Jack Aubry',
     major: 'Accountancy',
     graduationDate: 'May 2024',
-    links: [
-      { LinkedIn: 'https://www.linkedin.com/in/jack-aubry-237b26206' },
-    ],
+    links: [{ LinkedIn: 'https://www.linkedin.com/in/jack-aubry-237b26206' }],
     headshot: '../../images/headshots/iops/jackaubry.jpg',
     biography:
       "I find satisfaction in helping turn an idea into a tangible thing, so my professional dream would be to hold a position that works on projects, one's of which will have a positive effect on people's lives. My favorite thing to do in the summer is to ride my bike and listen to music that I haven't heard before. ",

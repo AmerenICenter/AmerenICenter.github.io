@@ -19,7 +19,8 @@ function People() {
     <div className={`${styles.main} container`}>
       <h1 className={`${styles.header} ${styles.infoHeader}`}>Who We Are</h1>
       <p>
-        We are a cohort of fourteen interns who work under two full time employees to accomplish projects given by Ameren sponsors.
+        We are a cohort of fourteen interns who work under two full time
+        employees to accomplish projects given by Ameren sponsors.
       </p>
 
       <h2 className={`${styles.peopleHeader}`}>Managers</h2>

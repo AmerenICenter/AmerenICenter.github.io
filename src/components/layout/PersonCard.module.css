@@ -3,6 +3,7 @@
   flex-direction: column;
   cursor: pointer;
   text-align: center;
+  align-items: center;
 }
 
 .cardImage {
@@ -57,4 +58,20 @@ hr {
   width: 96%;
   background-color: #ccc;
   height: 1px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cardTitle {
+    font-size: 15px;
+  }
+
+  .card {
+    text-align: center;
+    /* al */
+  }
 }

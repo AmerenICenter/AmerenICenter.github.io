@@ -37,7 +37,7 @@ function Home() {
 
   return (
     <>
-      <section className={`${styles.landing} landingSection`}>
+      {/* <section className={`${styles.landing} landingSection`}>
         <div className={styles.overlay}>
           <div className={styles.intro}>
             <h1 className={`${styles.header} container`}>
@@ -46,15 +46,35 @@ function Home() {
             <Button action={scrollDown} isLanding={true} text={'Explore'} />
           </div>
         </div>
-      </section>
-      {/* <video autoplay loop muted>
-        <source src='video.mp4' type='video/mp4'></source>
-      </video> */}
+      </section> */}
+      <div className={styles.videoWrapper}>
+        <div className={styles.videoOverlay}></div>
+        <video src={'videos/windturbine.mp4'} autoPlay loop muted />
+        <div className={styles.landingContent}>
+          {/* <h1>Welcome</h1>
+          <p>to my site.</p> */}
+          <h1 className={`${styles.header} container`}>
+            Welcome to the Ameren Innovation Center at Research Park
+          </h1>
+          <Button
+            className='explore-btn'
+            action={scrollDown}
+            isLanding={true}
+            text={'Explore'}
+          />
+        </div>
+      </div>
+      {/* <div class='video-wrapper'>
+        <video src="videos/windturbine.mp4" playsInline autoPlay muted loop>
+          <source src='videos/windturbine.mp4' type='video/mp4' />
+          Your browser does not support the video tag.
+        </video>
+      </div> */}
 
       <section className={styles.about} ref={aboutSection}>
         <div className={`${styles.text} container`}>
           <h1 className={styles.aboutHeader}>About Us</h1>
-          <p>
+          <p className={styles.bodyText}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -73,6 +93,7 @@ function Home() {
       <section className={styles.team}>
         <div className={`${styles.teamContainer} container`}>
           <h1 className={styles.teamTitle}>Meet the Team</h1>
+
           <p className={styles.teamText}>
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took a galley of type and
@@ -134,7 +155,7 @@ function Home() {
         <div className={styles.about}>
           <div className={styles.text}>
             <h1 className={`${styles.interestedHeader} header`}>Interested?</h1>
-            <p>
+            <p className={styles.bodyText}>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
               scrambled it to make a type specimen book. Lorem Ipsum has been
