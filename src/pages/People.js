@@ -1,8 +1,30 @@
 import styles from './People.module.css';
 import { createPersonCard } from '../components/layout/PersonCard';
 import { appTeam, dataTeam, iopsTeam, managerTeam } from '../data/team';
+import { useEffect } from 'react';
 
 function People() {
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  useEffect(() => {
+    scrollUp();
+    // console.log('d');
+  }, []);
+  // useEffect(() => {
+  //   window.onload = function () {
+  //     if (!window.location.hash) {
+  //       window.location = window.location + '#loaded';
+  //       window.location.reload();
+  //     }
+  //   };
+
+  //   window.onload();
+  // }, []);
   return (
     <div className={`${styles.main} container`}>
       <h1 className={`${styles.header} ${styles.infoHeader}`}>Who We Are</h1>

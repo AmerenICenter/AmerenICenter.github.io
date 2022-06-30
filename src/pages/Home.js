@@ -7,6 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Button from '../components/items/Button';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const aboutSection = useRef(null);
@@ -16,6 +17,11 @@ function Home() {
       top: aboutSection.current.offsetTop,
       behavior: 'smooth',
     });
+  };
+
+  let navigate = useNavigate();
+  const routeChange = (path) => {
+    navigate(path);
   };
 
   return (
@@ -30,6 +36,9 @@ function Home() {
           </div>
         </div>
       </section>
+      {/* <video autoplay loop muted>
+        <source src='video.mp4' type='video/mp4'></source>
+      </video> */}
 
       <section className={styles.about} ref={aboutSection}>
         <div className={`${styles.text} container`}>
@@ -46,7 +55,7 @@ function Home() {
             PageMaker including versions of Lorem Ipsum.
           </p>
           <div className={styles.buttonContainer}>
-            <Button text={'Read More'} />
+            <Button text={'Read More'} action={() => routeChange('about')} />
           </div>
         </div>
       </section>
@@ -99,8 +108,14 @@ function Home() {
             </div>
           </div>
           <div className={`${styles.buttons} ${styles.buttonContainer}`}>
-            <Button text={'View Projects'} />
-            <Button text={'Meet the Interns'} />
+            <Button
+              text={'View Projects'}
+              action={() => routeChange('projects')}
+            />
+            <Button
+              text={'Meet the Interns'}
+              action={() => routeChange('people')}
+            />
           </div>
         </div>
       </section>
