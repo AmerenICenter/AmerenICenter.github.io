@@ -13,18 +13,8 @@ function People() {
 
   useEffect(() => {
     scrollUp();
-    // console.log('d');
   }, []);
-  // useEffect(() => {
-  //   window.onload = function () {
-  //     if (!window.location.hash) {
-  //       window.location = window.location + '#loaded';
-  //       window.location.reload();
-  //     }
-  //   };
 
-  //   window.onload();
-  // }, []);
   return (
     <div className={`${styles.main} container`}>
       <h1 className={`${styles.header} ${styles.infoHeader}`}>Who We Are</h1>

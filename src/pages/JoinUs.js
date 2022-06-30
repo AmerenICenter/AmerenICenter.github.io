@@ -1,8 +1,20 @@
 import styles from './JoinUs.module.css';
 import FAQ from '../../src/data/faq.js';
 import { createQuestionItem } from '../components/items/QuestionItem';
+import { useEffect } from 'react';
 
 function JoinUs() {
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  useEffect(() => {
+    scrollUp();
+  }, []);
+
   return (
     <>
       <div class='container'>

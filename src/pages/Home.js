@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import styles from './Home.module.css';
 import {
   faDatabase,
@@ -23,6 +23,17 @@ function Home() {
   const routeChange = (path) => {
     navigate(path);
   };
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  useEffect(() => {
+    scrollUp();
+  }, []);
 
   return (
     <>
@@ -133,8 +144,9 @@ function Home() {
               dummy text ever since the 1500s, when an unknown printer took a
               galley of type and scrambled it to make a type specimen book.
             </p>
-            <div className={styles.buttonContainer}>
-              <Button text={'Join Us'} />
+            <div className={`${styles.buttons} ${styles.buttonContainer}`}>
+              <Button text={'Events'} action={() => routeChange('events')} />
+              <Button text={'Join Us'} action={() => routeChange('joinus')} />
             </div>
           </div>
         </div>
