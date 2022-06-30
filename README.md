@@ -1,6 +1,6 @@
 # Ameren iCenter External Website
 
-External website for the Ameren Innovation Center at UIUC's Research Park.
+External [website](https://amerenicenter.github.io/) for the Ameren Innovation Center at UIUC's Research Park.
 
 ### Disclaimer Message
 
@@ -12,6 +12,15 @@ This website is...
 npm install
 npm run start
 localhost:3000
+```
+
+### Deployment
+
+This website is deployed on GitHub Pages.
+
+```
+npm run deploy
+
 ```
 
 ### Technologies
