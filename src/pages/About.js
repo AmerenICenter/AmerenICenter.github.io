@@ -21,7 +21,7 @@ function About() {
 
   if (!isLoaded) return <div>Loading...</div>;
   return (
-    <div className='container'>
+    <div className={`${styles.container} container`}>
       <h1 className='header'> About the Innovation Center </h1>
       <div className={styles.line}>
         Lorem Ipsum has been the industry's standard dummy text ever since the
@@ -29,17 +29,16 @@ function About() {
         make a type specimen book.
       </div>
       <div className={styles.statement}>
-        <div>
-          The Ameren Innovation Center collaborates with students and faculty
-          from the University of Illinois and other companies across multiple
-          industries at the Research Park. Their goal is to foster an
-          exploratory environment that focuses on innovations to help Ameren
-          better meet the future needs of its customers. Opened in 2015, the
-          Ameren Innovation Center uses a multi-disciplinary workforce of
-          interns and full-timers to leverage the kind of innovative technology
-          needed for Ameren Digital to seize business opportunities and bring
-          value to customers.
-        </div>
+        {/* <div> */}
+        The Ameren Innovation Center collaborates with students and faculty from
+        the University of Illinois and other companies across multiple
+        industries at the Research Park. Their goal is to foster an exploratory
+        environment that focuses on innovations to help Ameren better meet the
+        future needs of its customers. Opened in 2015, the Ameren Innovation
+        Center uses a multi-disciplinary workforce of interns and full-timers to
+        leverage the kind of innovative technology needed for Ameren Digital to
+        seize business opportunities and bring value to customers.
+        {/* </div> */}
       </div>
 
       <div class={styles.factContainer}>
@@ -59,7 +58,7 @@ function About() {
 
       <div className={styles.locationContainer}>
         <div className={styles.contact}>
-          <h2>Contact Us</h2>
+          <h1>Contact Us</h1>
           <ul>
             <li>Head Manager: Joe Rolfes</li>
             <li>Software Engineer: Kevin Ficek</li>
@@ -71,6 +70,15 @@ function About() {
           <Map />
         </div>
       </div>
+      {/* <div className={styles.hiddenContact}>
+        <h1>Contact Us</h1>
+        <ul>
+          <li>Head Manager: Joe Rolfes</li>
+          <li>Software Engineer: Kevin Ficek</li>
+          <li>Data Scientist: James Kabbes</li>
+          <li>Address: 2100 S. First St. Champaign, IL</li>
+        </ul>
+      </div> */}
     </div>
   );
 }
