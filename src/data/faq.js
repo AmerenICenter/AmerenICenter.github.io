@@ -1,33 +1,33 @@
 const FAQ = [
   {
     question:
-      'Why is Lorem Ipsum the simply dummy text of the printing and typesetting industry?',
+      'Do I need to be from the University of Illinois at Urbana-Champaign to become a member of the iCenter?',
     answer:
-      'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'Yes, only students from UIUC are accepted into the internship program.',
   },
   {
     question:
-      'Why is Lorem Ipsum the simply dummy text of the printing and typesetting industry?',
+      'Does the iCenter only offer summer internships?',
     answer:
-      'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'No, the iCenter offers internships during summer, fall, and spring!',
   },
   {
     question:
-      'Why is Lorem Ipsum the simply dummy text of the printing and typesetting industry?',
+      'What qualifications do I need to have before applying?',
     answer:
-      'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'Please check the job description for qualifications.',
   },
   {
     question:
-      'Why is Lorem Ipsum the simply dummy text of the printing and typesetting industry?',
+      'Is the work remote or in-person?',
     answer:
-      'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'The position is remote, but in-person work is encouraged.',
   },
   {
     question:
-      'Why is Lorem Ipsum the simply dummy text of the printing and typesetting industry?',
+      'Do I need to be a certain major to apply?',
     answer:
-      'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'No, all majors are accepted.',
   },
 ];
 

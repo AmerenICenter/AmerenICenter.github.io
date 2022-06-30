@@ -33,7 +33,6 @@ export const managerTeam = [
     graduationDate: 'December 1996',
     links: [
       { LinkedIn: 'https://www.linkedin.com/in/kevin-ficek-babb94215/' },
-      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/app/kevin.jpg',
     biography:
@@ -123,8 +122,9 @@ export const dataTeam = [
     major: 'Mathematics',
     graduationDate: 'December 2023',
     links: [
-      { LinkedIn: 'https://www.linkedin.com' },
-      { GitHub: 'https://www.github.com' },
+      { LinkedIn: 'https://www.linkedin.com/in/davidzhongtaian/' },
+      { Google: 'https://davidzhongtai.com/' },
+      { GitHub: 'https://github.com/DavidZhongtai' },
     ],
     headshot: '../../images/headshots/data/davidan.jpg',
     biography:
@@ -137,8 +137,7 @@ export const dataTeam = [
     major: 'Computer Science',
     graduationDate: 'May 2025',
     links: [
-      { LinkedIn: 'https://www.linkedin.com' },
-      { GitHub: 'https://www.github.com' },
+      { LinkedIn: 'https://www.linkedin.com/in/myles-ream-a165601b5/' },
     ],
     headshot: '../../images/headshots/data/mylesream.jpg',
     biography:
@@ -151,8 +150,7 @@ export const dataTeam = [
     major: 'Computer Science',
     graduationDate: 'December 2024',
     links: [
-      { LinkedIn: 'https://www.linkedin.com' },
-      { GitHub: 'https://www.github.com' },
+      { LinkedIn: 'https://www.linkedin.com/in/jash-parekh-064181188/' },
     ],
     headshot: '../../images/headshots/data/jashparekh.jpg',
     biography:
@@ -165,8 +163,8 @@ export const dataTeam = [
     major: 'Aerospace Engineering',
     graduationDate: 'May 2024',
     links: [
-      { LinkedIn: 'https://www.linkedin.com' },
-      { GitHub: 'https://www.github.com' },
+      { LinkedIn: 'https://www.linkedin.com/in/architmyadam' },
+      { GitHub: 'https://github.com/architm1' },
     ],
     headshot: '../../images/headshots/data/architmyadam.jpeg',
     biography:
@@ -179,8 +177,8 @@ export const dataTeam = [
     major: 'Industrial Engineering',
     graduationDate: 'May 2023',
     links: [
-      { LinkedIn: 'https://www.linkedin.com' },
-      { GitHub: 'https://www.github.com' },
+      { LinkedIn: 'https://www.linkedin.com/in/alexander-pero-884b831a5' },
+      { GitHub: 'https://github.com/xanderpero/' },
     ],
     headshot: '../../images/headshots/data/xander.jfif',
     biography:
@@ -197,7 +195,6 @@ export const iopsTeam = [
     graduationDate: 'May 2023',
     links: [
       { LinkedIn: 'https://www.linkedin.com/in/kaitlyn-kabbes-302248208/' },
-      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/katiekabbes.jpg',
     biography: 'Fun Fact: My favorite intramural on campus is dodgeball.',
@@ -210,7 +207,6 @@ export const iopsTeam = [
     graduationDate: 'May 2024',
     links: [
       { LinkedIn: 'https://www.linkedin.com/in/george-atkins-04218621b' },
-      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/georgeatkins.jpg',
     biography:
@@ -224,7 +220,6 @@ export const iopsTeam = [
     graduationDate: 'May 2025',
     links: [
       { LinkedIn: 'linkedin.com/in/rdp25' },
-      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/ritikapatel.jpg',
     biography:
@@ -238,7 +233,6 @@ export const iopsTeam = [
     graduationDate: 'May 2024',
     links: [
       { LinkedIn: 'https://www.linkedin.com/in/jack-aubry-237b26206' },
-      { GitHub: 'https://www.github.com' },
     ],
     headshot: '../../images/headshots/iops/jackaubry.jpg',
     biography:

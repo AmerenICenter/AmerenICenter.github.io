@@ -19,10 +19,7 @@ function People() {
     <div className={`${styles.main} container`}>
       <h1 className={`${styles.header} ${styles.infoHeader}`}>Who We Are</h1>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.
+        We are a cohort of fourteen interns who work under two full time employees to accomplish projects given by Ameren sponsors.
       </p>
 
       <h2 className={`${styles.peopleHeader}`}>Managers</h2>
