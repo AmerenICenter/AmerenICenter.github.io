@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import styles from './Home.module.css';
 import {
   faDatabase,
@@ -7,6 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Button from '../components/items/Button';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const aboutSection = useRef(null);
@@ -18,6 +19,22 @@ function Home() {
     });
   };
 
+  let navigate = useNavigate();
+  const routeChange = (path) => {
+    navigate(path);
+  };
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  useEffect(() => {
+    scrollUp();
+  }, []);
+
   return (
     <>
       <section className={`${styles.landing} landingSection`}>
@@ -26,15 +43,13 @@ function Home() {
             <h1 className={`${styles.header} container`}>
               Welcome to the Ameren Innovation Center at Research Park
             </h1>
-            <Button
-              action={scrollDown}
-              isLanding={true}
-              href='/#'
-              text={'Explore'}
-            />
+            <Button action={scrollDown} isLanding={true} text={'Explore'} />
           </div>
         </div>
       </section>
+      {/* <video autoplay loop muted>
+        <source src='video.mp4' type='video/mp4'></source>
+      </video> */}
 
       <section className={styles.about} ref={aboutSection}>
         <div className={`${styles.text} container`}>
@@ -51,7 +66,7 @@ function Home() {
             PageMaker including versions of Lorem Ipsum.
           </p>
           <div className={styles.buttonContainer}>
-            <Button text={'Read More'} />
+            <Button text={'Read More'} action={() => routeChange('about')} />
           </div>
         </div>
       </section>
@@ -104,8 +119,14 @@ function Home() {
             </div>
           </div>
           <div className={`${styles.buttons} ${styles.buttonContainer}`}>
-            <Button text={'View Projects'} />
-            <Button text={'Meet the Interns'} />
+            <Button
+              text={'View Projects'}
+              action={() => routeChange('projects')}
+            />
+            <Button
+              text={'Meet the Interns'}
+              action={() => routeChange('people')}
+            />
           </div>
         </div>
       </section>
@@ -123,8 +144,9 @@ function Home() {
               dummy text ever since the 1500s, when an unknown printer took a
               galley of type and scrambled it to make a type specimen book.
             </p>
-            <div className={styles.buttonContainer}>
-              <Button text={'Join Us'} />
+            <div className={`${styles.buttons} ${styles.buttonContainer}`}>
+              <Button text={'Events'} action={() => routeChange('events')} />
+              <Button text={'Join Us'} action={() => routeChange('joinus')} />
             </div>
           </div>
         </div>

@@ -1,9 +1,21 @@
 import { Chrono } from 'react-chrono';
 import styles from './Events.module.css';
 import events from '../../src/data/events';
+import { useEffect } from 'react';
 
 function Events() {
   const mode = 'VERTICAL_ALTERNATING';
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  useEffect(() => {
+    scrollUp();
+  }, []);
 
   return (
     <div className={`${styles.timeline} container`}>
