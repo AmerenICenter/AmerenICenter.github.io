@@ -55,6 +55,7 @@
   border-radius: 1px;
 }
 
+/* some of these style maybe not needed anymore. */
 .intro {
   top: 38%;
   position: absolute;
@@ -119,4 +120,42 @@
 .aboutHeader,
 .interestedHeader {
   margin-bottom: 20px;
+}
+
+.videoWrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.landingContent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  /* height: calc(100vh - 60px); */
+  /* margin-top: 60px; */
+  /* background: url('https://randomwordgenerator.com/img/picture-generator/54e2d1404a50ab14f1dc8460962e33791c3ad6e04e507440762a7cd1964ec5_640.jpg')
+    no-repeat center center/cover; */
+  /* margin-top: 60px; */
+}
+
+.videoOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
