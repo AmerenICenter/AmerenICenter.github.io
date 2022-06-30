@@ -16,7 +16,7 @@ function About() {
   }, []);
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.REACT_APP_MAP_API_KEY,
+    googleMapsApiKey: 'AIzaSyAjani6_QMj8XC4J3EW-RfvHW-P9-1axns',
   });
 
   if (!isLoaded) return <div>Loading...</div>;
