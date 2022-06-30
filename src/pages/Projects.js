@@ -1,6 +1,7 @@
 import { createProjectCard } from '../components/layout/ProjectCard';
 import projects from '../data/projects';
 import { useEffect } from 'react';
+import styles from './Projects.module.css';
 
 function Projects() {
   const scrollUp = () => {
@@ -15,7 +16,7 @@ function Projects() {
   }, []);
 
   return (
-    <div className='container'>
+    <div className={`${styles.container} container`}>
       <h1 className='header'>Current Projects</h1>
       {projects.map(createProjectCard)}
     </div>

@@ -61,6 +61,7 @@ li {
     /* margin: 0 20px; */
     display: flex;
     /* gap: 2rem; */
+    padding: 0 1rem;
     flex-direction: column;
   }
 
