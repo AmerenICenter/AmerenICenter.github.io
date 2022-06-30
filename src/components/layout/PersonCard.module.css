@@ -60,18 +60,31 @@ hr {
   height: 1px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   .cardImage {
-    width: 100px;
-    height: 100px;
+    height: 175px;
+    width: 175px;
   }
-
-  .cardTitle {
-    font-size: 15px;
+  h3 {
+    font-size: 20px;
   }
+  p {
+    font-size: 14px;
+  }
+}
 
+@media (max-width: 850px) {
+  .cardImage {
+    height: 125px;
+    width: 125px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
   .card {
-    text-align: center;
-    /* al */
+    margin: 0px;
   }
 }

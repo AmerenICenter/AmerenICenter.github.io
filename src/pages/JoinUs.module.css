@@ -27,3 +27,12 @@
 .contact {
   margin: 50px 0;
 }
+
+@media (max-width: 1200px) {
+  .info {
+    flex-direction: column;
+  }
+  .text {
+    margin-bottom: -120px;
+  }
+}
