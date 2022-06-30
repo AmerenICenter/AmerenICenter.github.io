@@ -1,45 +1,88 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './Nav.module.css';
+
+const scrollUp = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+};
 
 function Nav() {
   return (
     <nav id='navbar' className={`${styles.navbar}`}>
       <div className={`${styles.container} container`}>
         <div className={styles.logo}>
-          <Link to='/'>
-            <img id='logo' className={styles.logoImage} src='./logo.png' />
-          </Link>
+          <NavLink to='/'>
+            <img
+              onClick={scrollUp}
+              id='logo'
+              className={styles.logoImage}
+              src='./logo.png'
+              alt='logo'
+            />
+          </NavLink>
         </div>
         <ul className='rightSideContainer'>
           <li className='secretHome'>
-            <Link className='nav-link' to='/'>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${styles.linkActive} nav-link` : `nav-link`
+              }
+              to='/'
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='nav-link' to='/about'>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${styles.linkActive} nav-link` : `nav-link`
+              }
+              to='/about'
+            >
               About
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='nav-link' to='/projects'>
+            <NavLink
+              to='/projects'
+              className={({ isActive }) =>
+                isActive ? `${styles.linkActive} nav-link` : `nav-link`
+              }
+            >
               Projects
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='nav-link' to='/people'>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${styles.linkActive} nav-link` : `nav-link`
+              }
+              to='/people'
+            >
               People
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='nav-link' to='/events'>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${styles.linkActive} nav-link` : `nav-link`
+              }
+              to='/events'
+            >
               Events
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='nav-link' to='/joinus'>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${styles.linkActive} nav-link` : `nav-link`
+              }
+              to='/joinus'
+            >
               Join Us
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

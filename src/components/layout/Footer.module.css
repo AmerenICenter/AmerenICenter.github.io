@@ -28,3 +28,7 @@ li a {
   padding: 1rem 0rem;
   font-size: 0.85rem;
 }
+
+.tooltipText {
+  font-size: 1rem;
+}

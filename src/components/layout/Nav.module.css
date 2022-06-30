@@ -1,3 +1,7 @@
+.linkActive {
+  color: lightgrey !important;
+}
+
 .navbar {
   background: #218737;
   color: white;

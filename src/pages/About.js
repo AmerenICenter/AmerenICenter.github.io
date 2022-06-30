@@ -1,8 +1,20 @@
 import styles from './About.module.css';
 import { useLoadScript } from '@react-google-maps/api';
 import Map from '../components/items/Map';
+import { useEffect } from 'react';
 
 function About() {
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  useEffect(() => {
+    scrollUp();
+  }, []);
+
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_MAP_API_KEY,
   });

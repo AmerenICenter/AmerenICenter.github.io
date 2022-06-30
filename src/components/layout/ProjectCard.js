@@ -7,6 +7,7 @@ function createProjectCard(project) {
       name={project.name}
       text={project.text}
       technologies={project.technologies}
+      type={project.type}
     />
   );
 }
@@ -24,7 +25,7 @@ function ProjectCard(props) {
             </li>
           ))}
         </ul>
-
+        <p class={styles.type}>{props.type}</p>
         <p>{props.text}</p>
         <a href='#'>View Project</a>
       </div>
