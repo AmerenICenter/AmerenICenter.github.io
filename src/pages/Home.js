@@ -56,7 +56,12 @@ function Home() {
           <h1 className={`${styles.header} container`}>
             Welcome to the Ameren Innovation Center at Research Park
           </h1>
-          <Button action={scrollDown} isLanding={true} text={'Explore'} />
+          <Button
+            className='explore-btn'
+            action={scrollDown}
+            isLanding={true}
+            text={'Explore'}
+          />
         </div>
       </div>
       {/* <div class='video-wrapper'>
@@ -69,7 +74,7 @@ function Home() {
       <section className={styles.about} ref={aboutSection}>
         <div className={`${styles.text} container`}>
           <h1 className={styles.aboutHeader}>About Us</h1>
-          <p>
+          <p className={styles.bodyText}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -88,6 +93,7 @@ function Home() {
       <section className={styles.team}>
         <div className={`${styles.teamContainer} container`}>
           <h1 className={styles.teamTitle}>Meet the Team</h1>
+
           <p className={styles.teamText}>
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took a galley of type and
@@ -149,7 +155,7 @@ function Home() {
         <div className={styles.about}>
           <div className={styles.text}>
             <h1 className={`${styles.interestedHeader} header`}>Interested?</h1>
-            <p>
+            <p className={styles.bodyText}>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
               scrambled it to make a type specimen book. Lorem Ipsum has been
