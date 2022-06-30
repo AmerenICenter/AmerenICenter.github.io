@@ -12,3 +12,12 @@
 .peopleHeader {
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}

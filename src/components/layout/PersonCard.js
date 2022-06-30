@@ -74,7 +74,7 @@ function PersonCard(props) {
         </div>
       </Modal>
       <img className={styles.cardImage} src={props.headshot} />
-      <h3 className={props.cardTitle}>{props.name}</h3>
+      <h3 className={styles.cardTitle}>{props.name}</h3>
       <p className={styles.description}>{props.team}</p>
       <Button action={() => setModalIsOpen(true)} text={'About Me'} />
     </div>
