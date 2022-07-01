@@ -60,30 +60,41 @@ hr {
   height: 1px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   .cardImage {
-    width: 100px;
-    height: 100px;
+    height: 175px;
+    width: 175px;
   }
 
-  /* h3 {
+  h3 {
     font-size: 20px;
-  } */
-
-  /* p {
+  }
+  
+  p {
     font-size: 14px;
-  } */
-
-  /* .aboutMeButton {
-    font-size: 0.5rem;
-  } */
+  }
 
   .cardTitle {
     font-size: 15px;
   }
-
+  
   .card {
     text-align: center;
-    /* al */
+  }
+}
+
+@media (max-width: 850px) {
+  .cardImage {
+    height: 125px;
+    width: 125px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .card {
+    margin: 0px;
   }
 }
