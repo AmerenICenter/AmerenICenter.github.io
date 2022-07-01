@@ -29,16 +29,14 @@ function About() {
         make a type specimen book.
       </div>
       <div className={styles.statement}>
-        {/* <div> */}
-        The Ameren Innovation Center collaborates with students and faculty from
-        the University of Illinois and other companies across multiple
+        "The Ameren Innovation Center collaborates with students and faculty
+        from the University of Illinois and other companies across multiple
         industries at the Research Park. Their goal is to foster an exploratory
         environment that focuses on innovations to help Ameren better meet the
         future needs of its customers. Opened in 2015, the Ameren Innovation
         Center uses a multi-disciplinary workforce of interns and full-timers to
         leverage the kind of innovative technology needed for Ameren Digital to
-        seize business opportunities and bring value to customers.
-        {/* </div> */}
+        seize business opportunities and bring value to customers."
       </div>
 
       <div class={styles.factContainer}>
