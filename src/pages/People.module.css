@@ -19,9 +19,14 @@
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .peopleHeader {
     font-size: 20px;
+  }
+
+  .main {
+    text-align: center;
   }
 }
