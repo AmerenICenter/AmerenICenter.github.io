@@ -16,8 +16,8 @@ const projects = [
   {
     image: 'https://picsum.photos/536/354',
     name: 'Align App',
-    text: 'The align app mobile is a tool being developed for the customer engagement team to help better align all the different initiatives their  teams have going on. Users are able to input information about their on-going or future projects and then see what other projects are going on at the same time. Users can then decide if they would like to collaborate with another team on a similar project as well as getting an overview of what is going on inside the team. All of this in a mobile format so that users can still easily navigate the app without having to go on their desktop.',
-    technologies: ['JAVASCRIPT', 'HTML', 'CSS'],
+    text: 'The align app mobile is a tool being developed for the customer engagement team to help better align all the different initiatives their teams have going on. Users are able to input information about their on-going or future projects and then see what other projects are going on at the same time. Users can then decide if they would like to collaborate with another team on a similar project as well as getting an overview of what is going on inside the team. All of this in a mobile format so that users can still easily navigate the app without having to go on their desktop.',
+    technologies: ['A', 'B', 'C'],
     type: 'Application Development',
   },
   {
@@ -53,18 +53,21 @@ const projects = [
     name: 'Renewables Tracker',
     text: 'The Renewables Tracker hopes to track current and potential acquisitions and development for renewable energy locations. The dashboard will be able to generate graphs, track the development of projects, import data, and search existing projects all in the form of a database.​​​​​​​',
     technologies: ['PowerApps', 'SharePoint', 'SQL', 'Power Automate'],
+    type: 'Application Development',
   },
   {
     image: 'https://picsum.photos/536/354',
     name: 'Smart Documentation',
     text: 'Smart Documentation hopes to develop a pipeline to automatically generate documentation for Python libraries. ​​​​​​​',
     technologies: ['Python', 'Sphinx', 'GitHub Actions'],
+    type: 'Application Development',
   },
   {
     image: 'https://picsum.photos/536/354',
     name: 'Ansible API',
     text: 'The Ansible API is an API that helps run Ansible playbooks remotely through a web browser. The API is built in Flask and lets users input their desired playbook to run along with parameters. It also encrypts users credentials and allows for multiple playbooks to be run and monitored simultaneously.',
     technologies: ['Flask'],
+    type: 'Application Development',
   },
   {
     image: 'https://picsum.photos/536/354',

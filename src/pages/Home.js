@@ -75,15 +75,21 @@ function Home() {
         <div className={`${styles.text} container`}>
           <h1 className={styles.aboutHeader}>About Us</h1>
           <p className={styles.bodyText}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            The Innovation Center (iCenter) is a one-of-a-kind office that
+            encourages exploration and creativity. This collaborative
+            environment brings together people from all types of majors and
+            backgrounds to work on real world projects. In 2015, the iCenter
+            opened its doors in the heart of Research Park. Since then, the
+            iCenter has worked to tackle projects that range from electric
+            vehicle analysis to gas leak detection. By utilizing an avant-garde
+            style of internship, the iCenter is able to successfully complete
+            over ten projects per summer. Deveolpment is at the core of the
+            iCenter and every intern will experience growth in both their
+            professional and personal lives. The iCenter works to bring in
+            bright students from the University of Illinois and opens the door
+            to new and exciting opportunities at Ameren. By granting interns'
+            autonomy when coming up with solutions the iCenter can pioneer new
+            ways of problem solving.
           </p>
           <div className={styles.buttonContainer}>
             <Button text={'Read More'} action={() => routeChange('about')} />
@@ -95,14 +101,11 @@ function Home() {
           <h1 className={styles.teamTitle}>Meet the Team</h1>
 
           <p className={styles.teamText}>
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type
-            specimen book. Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book.
+            The Ameren Innovation Center is split up into three teams:
+            Application Development, Data Science, and Innovation Operations.
+            Every team has their own set of projects and tasks to complete.
+            Although they work on different projects, each team works closely
+            with one another to accomplish their goals.
           </p>
 
           <div className={styles.boxes}>
@@ -111,9 +114,10 @@ function Home() {
                 <FontAwesomeIcon icon={faCode} /> Application Development
               </div>
               <p>
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                The application development team focuses on designing, building,
+                and implementing software applications. The team built this
+                website from scratch and even created a program that
+                automatically generates Python documentation.
               </p>
             </div>
 
@@ -122,9 +126,11 @@ function Home() {
                 <FontAwesomeIcon icon={faDatabase} /> Data Science
               </div>
               <p>
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                The Data Science team deals with vast volumes of data using
+                modern tools and techniques to find unseen patterns, derive
+                meaningful information, and make informed decisions. Some topics
+                they explore include Gas Usage Forecasting and how electric
+                vehicle charging affects the power grid.
               </p>
             </div>
 
@@ -133,9 +139,10 @@ function Home() {
                 <FontAwesomeIcon icon={faBriefcase} /> Innovations Operations
               </div>
               <p>
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                The iOps team leads the internal side of the iCenter and removes
+                all barriers that the other teams may face. Marketing the
+                iCenter to potential applicants and internal management falls
+                under the job description for the iOps team.
               </p>
             </div>
           </div>
@@ -156,14 +163,7 @@ function Home() {
           <div className={styles.text}>
             <h1 className={`${styles.interestedHeader} header`}>Interested?</h1>
             <p className={styles.bodyText}>
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. Lorem Ipsum has been
-              the industry's standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a
-              type specimen book. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              We hope to see you join our team one day!
             </p>
             <div className={`${styles.buttons} ${styles.buttonContainer}`}>
               <Button text={'Events'} action={() => routeChange('events')} />

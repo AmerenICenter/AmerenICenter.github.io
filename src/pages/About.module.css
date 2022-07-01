@@ -4,6 +4,15 @@
   margin: 15px 0;
 }
 
+.contactLink {
+  color: black;
+  font-size: 1rem;
+}
+
+.contactLink:hover {
+  color: #218737;
+}
+
 .line {
   margin: 15px 0;
   font-size: 1.2rem;

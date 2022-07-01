@@ -32,7 +32,20 @@
   .info {
     flex-direction: column;
   }
+
   .text {
-    margin-bottom: -120px;
+    margin-bottom: -100px;
+  }
+
+  .photoGallery {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0 0.5rem;
+  }
+
+  h3 {
+    font-size: 15px;
   }
 }

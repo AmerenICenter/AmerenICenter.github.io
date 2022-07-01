@@ -17,29 +17,28 @@ function JoinUs() {
 
   return (
     <>
-      <div class='container'>
+      <div className={`${styles.container} container`}>
         <h1 className='header'>Join Us</h1>
         <div className={styles.info}>
           <div className={styles.text}>
             <h2>Interested?</h2>
             <p>
-              It was popularised in the 1960s with the release of Letraset
-              sheets containing Lorem Ipsum passages, and more recently with
-              desktop publishing software like Aldus PageMaker including
-              versions of Lorem Ipsum. It was popularised in the 1960s with the
-              release of Letraset sheets containing Lorem Ipsum passages, and
-              more recently with desktop publishing software like Aldus
-              PageMaker including versions of Lorem Ipsum. It was popularised in
-              the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
+              We would love to have you join our team at Research Park. Please
+              fill out the form below to receive more info about opportunities.
+              We hire University of Illinois students ranging from freshman to
+              Ph.D. students. All majors are accepted.
             </p>
             <div className={styles.links}>
+              <a target='_blank' href='https://forms.office.com/r/eByChq0W85'>
+                Interest Form
+              </a>
               <a href='#'>Apply Here</a>
-              <a href='#'>Join Us</a>
             </div>
           </div>
-          <img src='https://picsum.photos/500/300'></img>
+          <img
+            className={styles.photoGallery}
+            src='https://picsum.photos/500/300'
+          ></img>
         </div>
         <h2>Frequently Asked Questions</h2>
         <div className={styles.questions}>{FAQ.map(createQuestionItem)}</div>
