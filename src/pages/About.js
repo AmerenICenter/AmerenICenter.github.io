@@ -15,9 +15,14 @@ function About() {
     scrollUp();
   }, []);
 
+  const apiKey = 'AIzaSyAjani6_QMj8XC4J3EW-RfvHW-P9-1axns';
+
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyAjani6_QMj8XC4J3EW-RfvHW-P9-1axns',
+    googleMapsApiKey: apiKey,
   });
+
+  const googleMapsLink =
+    'https://www.google.com/maps/place/Ameren+Building/@40.0902049,-88.2416248,19z/data=!4m5!3m4!1s0x880cd71fef3bae67:0x8eedd0c42533497d!8m2!3d40.0895029!4d-88.2403014';
 
   if (!isLoaded) return <div>Loading...</div>;
   return (
@@ -57,26 +62,47 @@ function About() {
       <div className={styles.locationContainer}>
         <div className={styles.contact}>
           <h1>Contact Us</h1>
-          <ul>
-            <li>Head Manager: Joe Rolfes</li>
-            <li>Software Engineer: Kevin Ficek</li>
-            <li>Data Scientist: James Kabbes</li>
-            <li>Address: 2100 S. First St. Champaign, IL</li>
+          <ul className={styles.contactList}>
+            <li>
+              Head Manager:{' '}
+              <a
+                className={styles.contactLink}
+                href='mailto:JRolfes@ameren.com'
+              >
+                Joe Rolfes
+              </a>
+            </li>
+            <li>
+              Software Engineer:{' '}
+              <a className={styles.contactLink} href='mailto:KFicek@ameren.com'>
+                Kevin Ficek
+              </a>
+            </li>
+            <li>
+              Data Scientist:{' '}
+              <a
+                className={styles.contactLink}
+                href='mailto:JKabbes@ameren.com'
+              >
+                James Kabbes
+              </a>
+            </li>
+            <li>
+              Address:{' '}
+              <a
+                className={styles.contactLink}
+                target='_blank'
+                href={googleMapsLink}
+              >
+                2100 S. First St. Champaign, IL
+              </a>
+            </li>
           </ul>
         </div>
         <div className={styles.mapContainer}>
           <Map />
         </div>
       </div>
-      {/* <div className={styles.hiddenContact}>
-        <h1>Contact Us</h1>
-        <ul>
-          <li>Head Manager: Joe Rolfes</li>
-          <li>Software Engineer: Kevin Ficek</li>
-          <li>Data Scientist: James Kabbes</li>
-          <li>Address: 2100 S. First St. Champaign, IL</li>
-        </ul>
-      </div> */}
     </div>
   );
 }

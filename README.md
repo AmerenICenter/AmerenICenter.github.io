@@ -25,7 +25,7 @@ npm run deploy
 
 ### Technologies
 
-- [React.js](https://reactjs.org/).
+- [React.js](https://reactjs.org/) & External React Libraries.
 - HTML, CSS, JavaScript.
 - GitHub Pages.
 
@@ -41,8 +41,6 @@ npm run deploy
 ### Tasks
 
 - Media queries (responsive design).
-- full time employee page, intern page, purpose of iCenter
 - Link with workday, interest form, form on the site?
 - CMS.
-- show selected navigation bar item?
 - clean files.?
