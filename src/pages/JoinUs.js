@@ -17,7 +17,7 @@ function JoinUs() {
 
   return (
     <>
-      <div class='container'>
+      <div className={`${styles.container} container`}>
         <h1 className='header'>Join Us</h1>
         <div className={styles.info}>
           <div className={styles.text}>
@@ -35,7 +35,10 @@ function JoinUs() {
               <a href='#'>Apply Here</a>
             </div>
           </div>
-          <img src='https://picsum.photos/500/300'></img>
+          <img
+            className={styles.photoGallery}
+            src='https://picsum.photos/500/300'
+          ></img>
         </div>
         <h2>Frequently Asked Questions</h2>
         <div className={styles.questions}>{FAQ.map(createQuestionItem)}</div>

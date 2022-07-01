@@ -27,3 +27,25 @@
 .contact {
   margin: 50px 0;
 }
+
+@media (max-width: 1200px) {
+  .info {
+    flex-direction: column;
+  }
+
+  .text {
+    margin-bottom: -100px;
+  }
+
+  .photoGallery {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0 0.5rem;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+}
