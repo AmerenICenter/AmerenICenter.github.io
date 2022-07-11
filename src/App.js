@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Layout from './components/layout/Layout';
 import JoinUs from './pages/JoinUs';
 
-import { HashRouter, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
