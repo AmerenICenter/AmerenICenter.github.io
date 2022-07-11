@@ -37,7 +37,7 @@ function JoinUs() {
           </div>
           <img
             className={styles.photoGallery}
-            src='https://picsum.photos/500/300'
+            src='/images/events/iCenter.jpg'
           ></img>
         </div>
         <h2>Frequently Asked Questions</h2>

@@ -28,6 +28,13 @@
   margin: 50px 0;
 }
 
+@media (min-width: 1200px) {
+  .photoGallery {
+    width: 500px;
+    height: 300px;
+  }
+}
+
 @media (max-width: 1200px) {
   .info {
     flex-direction: column;

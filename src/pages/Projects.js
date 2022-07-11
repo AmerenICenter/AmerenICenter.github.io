@@ -1,5 +1,5 @@
 import { createProjectCard } from '../components/layout/ProjectCard';
-import projects from '../data/projects';
+import { current_projects, completed_projects } from '../data/projects';
 import { useEffect } from 'react';
 import styles from './Projects.module.css';
 
@@ -18,7 +18,9 @@ function Projects() {
   return (
     <div className={`${styles.container} container`}>
       <h1 className='header'>Current Projects</h1>
-      {projects.map(createProjectCard)}
+      {current_projects.map(createProjectCard)}
+      <h1 className='header'>Completed Projects</h1>
+      {completed_projects.map(createProjectCard)}
     </div>
   );
 }
