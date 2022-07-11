@@ -80,6 +80,27 @@ const completed_projects = [
     technologies: ['A', 'B', 'C'],
     type: 'Application Development',
   },
+  {
+    image: 'https://picsum.photos/536/354',
+    name: 'Cyber Security Dashboard',
+    text: 'The Cybersecurity Dashboard is a display of all cybersecurity metrics at Ameren and their performance over time. All the raw data gets centralized and processed into metrics automatically and saves the cyber teams countless hours of manual calculations. Additionally, the dashboard allows Ameren executives to understand our cyber performance at a glance.',
+    technologies: ['A', 'B', 'C'],
+    type: 'Data Science',
+  },
+  {
+    image: 'https://picsum.photos/536/354',
+    name: 'Missouri Energy Efficiency',
+    text: 'The Missouri Energy Efficiency project optimizes the pipeline for loading, cleaning, and processing customer demographic data. It allows for faster automation of generating results from a machine learning model, in which the model gives all billing accounts a propensity score to join for the selected program of choice. This gives Amerens marketing team the ability to select customers to target and increases the amount of program enrollment while simultaneously decreasing Amerens advertising cost.',
+    technologies: ['A', 'B', 'C'],
+    type: 'Data Science',
+  },
+  {
+    image: 'https://picsum.photos/536/354',
+    name: 'S3 Synchrony',
+    text: 'S3 Synchrony is an open-source Python module that provides basic data synchronization across our development team. Hosted on AWS, it acts as a basic version control system for large data files. Paired with GitHub and Python environment management services, a synchronized "Data" folder empowers all developers to collaborate on analytics projects.',
+    technologies: ['A', 'B', 'C'],
+    type: 'Data Science',
+  },
 ];
 
 export { current_projects, completed_projects };
