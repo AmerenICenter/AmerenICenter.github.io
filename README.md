@@ -20,14 +20,13 @@ This website is deployed on GitHub Pages.
 
 ```
 npm run deploy
-
 ```
 
 ### Technologies
 
 - [React.js](https://reactjs.org/) & External React Libraries.
 - HTML, CSS, JavaScript.
-- GitHub Pages.
+- [GitHub Pages](https://pages.github.com/).
 
 ### Additional React Libraries
 
@@ -37,10 +36,3 @@ npm run deploy
 - [Icons](https://react-icons.github.io/react-icons).
 - [Google Maps](https://www.npmjs.com/package/@googlemaps/react-wrapper).
 - [Material UI](https://mui.com/).
-
-### Tasks
-
-- Media queries (responsive design).
-- Link with workday, interest form, form on the site?
-- CMS.
-- clean files.?
