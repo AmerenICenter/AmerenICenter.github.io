@@ -1,8 +1,8 @@
 const current_projects = [
   {
     image: '/images/projects/glenda.png',
-    name: 'Gas Leak Detection Algorithm (GLeNDA)',
-    text: 'The GLeNDA project involves predicting gas leaks by looking at the past few weeks of usage data. If the recent usage is unusually high relative to the previous time span, that may indicate a gas leak. The goal of this project is to enhance customer safety by detecting minor leaks before they culminate a more dangerous issue. ​​​​​​​',
+    name: 'GLeNDA',
+    text: 'The GLeNDA project involves predicting abnormal gas usage by looking at the past few weeks of usage data. If the recent usage is unusually high relative to the previous time span, that may indicate an issue. The goal of this project is to enhance customer safety by detecting abnormal gas usage before they culminate a more dangerous issue. ​​​​​​​',
     technologies: ['Python', 'Machine Learning', 'SQL'],
     type: 'Data Science',
   },
